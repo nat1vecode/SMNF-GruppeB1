@@ -50,6 +50,6 @@ rsconnect/
 
 # Output files from Quarto render
 * .pdf
-* .hmtl
+* .html
 * .csv
 abstract_files/*

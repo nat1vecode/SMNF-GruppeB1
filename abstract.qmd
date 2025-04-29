@@ -1,32 +1,19 @@
 ---
-title: "abstract"
-format: html
+title: "ein Platzhalter"
+author: Nathaniel Roumiantsev, {selbst eintragen}
+date: last-modified
+format:
+  html:
+   pdf:
 editor: visual
 ---
 
-## Quarto
+## 1. Einleitung
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+## 2. Literaturübersicht
 
-## Running Code
+## 3. Methode
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## 4. Ergebnisse
 
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
-
-DAS IST EINE TESTDATEI
-
-Nathaniel Roumiantsev war hier
-
-Jorin war hier
+## 5. Diskussion
