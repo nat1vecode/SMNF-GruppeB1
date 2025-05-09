@@ -67,3 +67,5 @@ Das Paper „Zero-trust management using AI: Untrusting the trusted accounts in 
 ## 4. Ergebnisse
 
 ## 5. Diskussion
+
+## Literaturverzeichnis
