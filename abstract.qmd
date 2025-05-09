@@ -1,6 +1,6 @@
 ---
 title: "ein Platzhalter"
-author: Nathaniel Roumiantsev, {selbst eintragen}
+author: Nathaniel Roumiantsev, David Piekarski, {selbst eintragen}
 date: last-modified
 format:
   html:
