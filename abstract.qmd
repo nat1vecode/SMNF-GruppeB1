@@ -24,8 +24,7 @@ output-file: abstract
 
 **GitHub Repository** https://github.com/nat1vecode/SMNF-GruppeB1
 
-**Für die Abgabe aktueller GitHub Hash:**
-69smnf420...
+**Für die Abgabe aktueller GitHub Hash:** 69smnf420...
 
 ## Code of Conduct
 
@@ -61,12 +60,10 @@ Hallo!
 
 ## 2. Literaturübersicht
 
-Wie bereits von [@jahank] beschrieben...
+Das Paper „Zero-trust management using AI: Untrusting the trusted accounts in social media?“ [@fottouh2023] hebt hervor, dass das bloße Vertrauen in verifizierte Accounts nicht ausreicht, um die Qualität und Vertrauenswürdigkeit von Informationen auf Social Media sicherzustellen. Die Autoren regen dazu an, über die reine Identifikation von Fake-Accounts hinauszugehen und auch die Inhalte verifizierter Accounts zu analysieren. Im Hinblick auf unsere Forschungsfrage beschäftigt sich diese Arbeit mit der Notwendigkeit einer KI, welche nicht nur visuelle Merkmale (wie Verifizierung) berücksichtigt, sondern auch Informationen inhaltlich auf ihre Vertrauenswürdigkeit bewertet.
 
 ## 3. Methode
 
 ## 4. Ergebnisse
 
 ## 5. Diskussion
-
-
