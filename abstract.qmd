@@ -1,12 +1,29 @@
 ---
-title: "ein Platzhalter"
-author: Nathaniel Roumiantsev, David Piekarski, {selbst eintragen}
-date: last-modified
+title: "(Platzhalter)"
+author: 
+  - Fynn Luyken
+  - Jorin Bahns
+  - David Piekarski
+  - Johannes Rehrl
+  - Nathaniel Roumiantsev
+
+date: today
+
 format:
   html:
-   pdf:
-editor: visual
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    papersize: a4
+    fontsize: 12pt
+    toc: true
+    number-sections: true
+
+output-file: dokument
 ---
+
+github_url: "https://github.com/nat1vecode/SMNF-GruppeB1" git_commit: ""
 
 ## 1. Einleitung
 
