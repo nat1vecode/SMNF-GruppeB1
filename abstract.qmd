@@ -12,12 +12,11 @@ format:
     toc: true
     number-sections: false
   pdf:
-    pdf-engine: lualatex
     papersize: a4
     fontsize: 12pt
     toc: true
     number-sections: false
-bibliography: literatur.bib
+bibliography: Literatur.bib
 csl: apa.csl
 
 output-file: abstract
@@ -62,10 +61,12 @@ Hallo!
 
 ## 2. Literaturübersicht
 
-
+Wie bereits von [@jahank] beschrieben...
 
 ## 3. Methode
 
 ## 4. Ergebnisse
 
 ## 5. Diskussion
+
+
