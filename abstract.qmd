@@ -12,7 +12,7 @@ date: today
 format:
   html:
     toc: true
-    number-sections: true
+    number-sections: false
   pdf:
     pdf-engine: lualatex
     papersize: a4
@@ -20,10 +20,40 @@ format:
     toc: true
     number-sections: true
 
-output-file: dokument
+output-file: abstract
 ---
 
-github_url: "https://github.com/nat1vecode/SMNF-GruppeB1" git_commit: ""
+GitHub URL: "https://github.com/nat1vecode/SMNF-GruppeB1"
+
+Aktueller Live Commit: ""
+
+## Code of Conduct
+
+Im Rahmen dieser wissenschaftlichen Arbeit verpflichten sich alle beteiligten Personen zur Einhaltung folgender Verhaltensgrundsätze:
+
+**Wissenschaftliche Integrität**
+
+Alle Forschenden verpflichten sich zur Einhaltung guter wissenschaftlicher Praxis, insbesondere zur Ehrlichkeit in der Darstellung von Daten, Ergebnissen und Methoden. Plagiate, Datenfälschung und -manipulation werden strikt abgelehnt.
+
+**Respektvolle Zusammenarbeit**
+
+Die Zusammenarbeit im Team basiert auf gegenseitigem Respekt, Fairness und Gleichberechtigung. Diskriminierung, Belästigung oder andere Formen unangemessenen Verhaltens werden nicht toleriert. Vereinbarte und verpflichtende Termine werden zuverlässig eingehalten oder frühzeitig und begründet kommuniziert.
+
+**Faire Aufteilung der Arbeitslast**
+
+Jegliche Arbeit wird gleichmäßig auf alle Gruppenmitglieder aufgeteilt. Sollte sich jemand benachteiligt fühlen, kann dieser dies jederzeit kommunizieren und wird entsprechend berücksichtigt.
+
+**Vermeidung von Interessenkonflikten & Berücksichtigung von Feedback**
+
+Potenzielle Interessenkonflikte werden frühzeitig offengelegt und transparent kommuniziert, um die Unabhängigkeit und Objektivität der Forschung zu gewährleisten. Konstruktives Feedback wird jederzeit mit Wertschätzung aufgenommen, geprüft und entsprechend umgesetzt.
+
+**Vertraulichkeit**
+
+Vertrauliche Informationen, insbesondere personenbezogene Daten oder nicht veröffentlichte Forschungsergebnisse, werden mit der gebotenen Sorgfalt behandelt. Weiterhin verpflichten sich alle Gruppenmitglieder dazu, sämtliche im Zuge des Moduls SMNF (PY1802) erhobenen vertraulichen Daten nicht außerhalb des Moduls zu verbreiten.
+
+**Umgang mit Künstlicher Intelligenz (KI)**
+
+Künstliche Intelligenz darf zur Unterstützung bei Recherche, Analyse oder Textentwurf eingesetzt werden, muss jedoch in angemessener Form kenntlich gemacht werden. KI-Tools werden nicht als Quelle zitiert oder verwendet, sondern dienen ausschließlich der Hilfestellung im Arbeitsprozess.
 
 ## 1. Einleitung
 
