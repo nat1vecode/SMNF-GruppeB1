@@ -16,14 +16,17 @@ format:
     papersize: a4
     fontsize: 12pt
     toc: true
-    number-sections: true
+    number-sections: false
+bibliography: literatur.bib
+csl: apa.csl
 
 output-file: abstract
 ---
 
-GitHub URL: "https://github.com/nat1vecode/SMNF-GruppeB1"
+**GitHub Repository** https://github.com/nat1vecode/SMNF-GruppeB1
 
-Aktueller Live Commit: ""
+**Für die Abgabe aktueller GitHub Hash:**
+69smnf420...
 
 ## Code of Conduct
 
@@ -58,6 +61,8 @@ Künstliche Intelligenz darf zur Unterstützung bei Recherche, Analyse oder Text
 Hallo!
 
 ## 2. Literaturübersicht
+
+
 
 ## 3. Methode
 
