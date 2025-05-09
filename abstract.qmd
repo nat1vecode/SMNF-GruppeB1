@@ -6,9 +6,7 @@ author:
   - David Piekarski
   - Johannes Rehrl
   - Nathaniel Roumiantsev
-
 date: today
-
 format:
   html:
     toc: true
