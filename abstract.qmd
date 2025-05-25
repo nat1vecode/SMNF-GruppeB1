@@ -76,9 +76,9 @@ Unser Forschungsprojekt behandelt ein komplexes Themengebiet, das vor allem eine
 
 Ergänzend hierzu bietet es sich nun an, quantitative Ansätze zur weiteren Forschung zu verwenden, die auf den Antworten aus der qualitativen Forschung basieren.
 
-Wir haben uns für 2 Teilnehmende entschieden, die in unserem Studiengang sind und somit möglicherweise entsprechende Erfahrungen zu KI haben. Alle Teilnehmenden sind unmittelbar durch Gespräche auf dem Universitätsgelände rekrutiert worden. Dabei haben wir das eine Interview persönlich und das andere online über Discord. Das persönliche Interview wurde mit einem Smartphonemikrofon und das Online-Interview durch die Software OBS aufgenommen. Zur Transkiption haben wir Better-Whisper in einem lokalen Verzeichnis verwendet.
+Wir haben uns für 2 Teilnehmende entschieden, die in unserem Studiengang sind und somit möglicherweise entsprechende Erfahrungen zu KI haben. Alle Teilnehmenden sind unmittelbar durch Gespräche auf dem Universitätsgelände rekrutiert worden. Dabei haben wir das eine Interview persönlich und das andere online über Discord. Das persönliche Interview wurde mit einem Smartphone-Mikrofon und das Online-Interview durch die Software OBS aufgenommen. Zur Transkription haben wir Better-Whisper in einem lokalen Verzeichnis verwendet.
 
-Für die Analyse haben wir uns für die Bottom-Up-Methode entschieden. Somit haben wir gemeinsam als Gruppe beide Transkriptionen gesichtet und jede Antwort separat, deduktiv kodiert und fortführend alle Codes zusammengefasst und entsprechende große Themen entwickelt. Wir haben keine besondere Software zur Analyse verwendet.
+Für die Analyse haben wir uns für die Bottom-Up-Methode entschieden. Somit haben wir gemeinsam als Gruppe beide Transskriptionen gesichtet und jede Antwort separat, deduktiv kodiert und fortführend alle Codes zusammengefasst und entsprechende große Themen entwickelt. Wir haben keine besondere Software zur Analyse verwendet.
 
 ## 4. Ergebnisse
 
