@@ -72,6 +72,10 @@ Abschließend zeigt die Studie „Exploring the Use of Personalized AI for Ident
 
 ### Qualitative Methode
 
+Unser Forschungsprojekt behandelt ein komplexes Themengebiet, das vor allem eine große soziale Komponente beeinhaltet. Mithilfe der qualitativen Methode können wir herausfinden, welche Erfahrungen Menschen mit KI gemacht haben und wie sie darüber denken. Insbesondere für die Nutzendenanforderungen ist es hilfreich, konkrete Vorstellungen zur Umsetzung einer KI zur Detektion von Misinformationen genannt zu bekommen.
+
+Ergänzend hierzu bietet es sich nun an, quantitative Ansätze zur weiteren Forschung zu verwenden, die auf den Antworten aus der qualitativen Forschung basieren.
+
 ## 4. Ergebnisse
 
 ### Qualitative Ergebnisse
