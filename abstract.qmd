@@ -80,7 +80,15 @@ Ergänzend hierzu bietet es sich nun an, quantitative Ansätze zur weiteren Fors
 
 ### Qualitative Ergebnisse
 
-Bei unserer qualitativen Erhebung haben wir zwei Interviews
+Bei unserer qualitativen Erhebung haben wir zwei Interviews geführt und gemeinsame analysiert. Besonders relevant bei unserer Stichprobe ist, dass beide Interviewpartner in einem jungen Alter sind, dementsprechend regelmäßig Social-Media nutzen und somit schon häufig in Kontakt mit Misinformationen waren.
+
+Die Analyse
+
+| Thema | Definition | Textstelle |
+|----|----|----|
+| Verantwortlichkeit und Regulierung | Die Frage nach der Verantwortlichkeit für Betreiben und Regulieren eines solchen KI-Systems (bspw. Plattformbetreiber, Staat oder Aufsichtsbehörden), insbesondere in Fällen von Versagen. | "Aber für die für die Implementation und für die Umsetzung sollten dann halt die Betreiber der verschiedenen Webseiten dann selbstverantwortlich sein." (B2_1, Zeile 134-136) |
+| Darstellung und Abruf | Die Anforderungen an die Kennzeichnung von Misinformation, z. B. durch Farbcodes oder kleine Symbole, sowie eine nicht-aufdringliche Integration der KI in die Plattform. | "Ich finde es sollte nicht aufdringlich sein, dementsprechend auch abschaltbar und es sollte sowohl optische als auch sozusagen faktisch nachprüfbare Anteile haben." (TP_2, Zeile 52-54) |
+| Transparenz und Quellenangabe | Die Anforderungen an die Nachvollziehbarkeit von KI-Entscheidungen, etwa durch transparente Quellenangaben, eine klare Darstellung des Prüfprozesses und die Offenlegung der Bewertungsgrundlagen. | "Also ich würde mir das so vorstellen, dass wenn es zu einer Entscheidung kommt oder zu einer Einschätzung kommt, dass es dann auch dementsprechend Quellenangaben machen kann. Also dass man dann ganz klar sieht, ok, warum hat es sich jetzt dafür entschieden und wie ist es zu diesem Schluss gekommen." (B2_1, Zeile 142-146) |
 
 ## 5. Diskussion
 
