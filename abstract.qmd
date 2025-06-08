@@ -81,9 +81,34 @@ Wir haben uns für 2 Teilnehmende entschieden, die in unserem Studiengang sind u
 
 Für die Analyse haben wir uns für die Bottom-Up-Methode entschieden. Somit haben wir gemeinsam als Gruppe beide Transkriptionen gesichtet und jede Antwort separat, deduktiv kodiert und fortführend alle Codes zusammengefasst und entsprechende große Themen entwickelt. Wir haben keine besondere Software zur Analyse verwendet.
 
-
 ### Quantitative Methode
-```{mermaid}
+
+#### Ablauf der Datenerhebung
+
+Für unsere quantitative Erhebung begann die Datenerhebung am Samstag, den 31.05.2025, und endete am Montag, den 10.06.2025. Zur Teilnahme an der Erhebung wurde den Probanden ein Link zur Verfügung gestellt, über den sie eigenständig teilnehmen konnten.
+Wir entschieden uns für ein Mixed Design, also eine Kombination aus einem Between-Subjects-Design und einem Within-Subjects-Design @Ablaufdiagramm. Zur Untersuchung des Effekts von KI als Unterstützung bei der Detektion von Missinformationen sollten die Teilnehmenden zunächst Beiträge ohne KI bewerten und anschließend mit KI (Within-Subjects-Design).
+Um außerdem Unterschiede zwischen evaluativer und empfehlender KI in Bezug auf Workload, Genauigkeit etc. festzustellen, wurden die Teilnehmenden im zweiten Teil zufällig einer der beiden KI-Varianten zugeordnet. Jeweils die Hälfte der Antworten bezieht sich auf eine der beiden KI-Varianten. @Ablaufdiagramm
+
+#### Beschreibung der Teilnehmenden
+
+Zum Abschluss unserer Erhebung haben 17 Teilnehmende unsere Studie vollständig abgeschlossen. Primär haben wir die Erhebung mit Studierenden und Personen im Alter zwischen 18 und 30 Jahren geteilt. Diese Zielgruppe wählten wir bewusst aus, da sie häufig viel Zeit auf sozialen Medien verbringen und im Rahmen von Studium oder Arbeit regelmäßig mit Recherche konfrontiert sind. Dadurch sind sie besonders häufig Missinformationen ausgesetzt. Dies führt dazu, dass sie ein aktuelleres Problembewusstsein im Umgang mit Missinformationen haben, was eine erhöhte Motivation zur Nutzung des Systems sowie ein besseres Verständnis für Risiken und Relevanz begünstigt. Ihre Anforderungen sind somit besonders aussagekräftig für die Gestaltung zukünftiger Systeme.
+
+Gleichzeitig haben viele Teilnehmende bereits privat oder beruflich Erfahrungen mit KI-Tools gesammelt, wodurch ihre Nutzung und Bewertung des KI-Systems in unserer Erhebung realitätsnäher und reflektierter ausfallen könnte.
+
+Um jedoch auch mögliche Unterschiede in den Ergebnissen zwischen verschiedenen Altersgruppen feststellen zu können, waren wir bemüht, zusätzlich Teilnehmende außerhalb des oben genannten Altersspektrums zu rekrutieren.
+
+Ausschlusskriterien für Teilnehmer unserer Erhebung waren, dass sie minderjährig sind und aktuell die Veranstalltung SMNF besuchen.
+
+
+#### Beschreibung der gewählten Erhebungsmethode
+
+Wir haben wir uns bei der Erhebungsmethode für eine quantitative Methode entschieden. Hierzu wurden im Pre-Test-, Post-Baseline- und Post-Test-Fragebogen Skalen verwendet. Bei der Klassifizierung der Posts wurden je Post messbare Variablen sowie die Entscheidungssicherheit des Nutzers über eine Skala aufgenommen.
+
+#### Geplante Analysen
+
+
+```{mermaid} 
+
 flowchart LR
  subgraph BASELINE["Phase 1: Ohne KI"]
     direction TB
@@ -130,8 +155,6 @@ flowchart LR
     style KI_PHASE fill:transparent
     style BASELINE fill:transparent
 ```
-   
-
 
 ## 4. Ergebnisse
 
@@ -158,26 +181,27 @@ Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entsche
 ## 5. Diskussion
 
 ## Literaturverzeichnis
+
 ::: {#refs}
 :::
 
-
 ## Anhang 1 - Rekrutierungstext
+
 Hast du schonmal einen Post auf Social Media gesehen und warst dir nicht sicher, ob er wahr oder falsch ist? Misinformation auf Social Media ist oft schwer zu erkennen. In unsere Online-Studie untersuchen wir, inwiefern Künstliche Intelligenz dabei unterstützen kann, solche Inhalte besser zu identifizieren.
 
 Voraussetzungen
 
-    mindestens 18 Jahre alt bist
-    gut Deutsch sprichst
-    einen PC oder ein Tablet zur Verfügung hast (keine Smartphone-Teilnahme möglich)
-    60 Minuten Zeit
+```         
+mindestens 18 Jahre alt bist
+gut Deutsch sprichst
+einen PC oder ein Tablet zur Verfügung hast (keine Smartphone-Teilnahme möglich)
+60 Minuten Zeit
+```
 
 Teilnahmelink:
 
-Link öffnen   (Bitte im Browser auf einem PC oder Tablet öffnen.)
-
+Link öffnen (Bitte im Browser auf einem PC oder Tablet öffnen.)
 
 Vergütung:
 
 Studierende der Medieninformatik oder Psychologie an der Universität zu Lübeck können 1 VP-Stunde erhalten. Wichtig: Teilnehmende an der AKTUELLEN Veranstaltung SMNF dürfen die Studie nicht bearbeiten.
-
