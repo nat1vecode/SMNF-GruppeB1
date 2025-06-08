@@ -11,7 +11,7 @@
 <meta name="author" content="David Piekarski">
 <meta name="author" content="Johannes Rehrl">
 <meta name="author" content="Nathaniel Roumiantsev">
-<meta name="dcterms.date" content="2025-05-25">
+<meta name="dcterms.date" content="2025-06-08">
 
 <title>(Platzhalter)</title>
 <style>
@@ -59,6 +59,9 @@ div.csl-indent {
 <script src="abstract_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="abstract_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="abstract_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="abstract_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="abstract_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="abstract_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -77,6 +80,7 @@ div.csl-indent {
   <li><a href="#methode" id="toc-methode" class="nav-link" data-scroll-target="#methode">3. Methode</a>
   <ul class="collapse">
   <li><a href="#qualitative-methode" id="toc-qualitative-methode" class="nav-link" data-scroll-target="#qualitative-methode">Qualitative Methode</a></li>
+  <li><a href="#quantitative-methode" id="toc-quantitative-methode" class="nav-link" data-scroll-target="#quantitative-methode">Quantitative Methode</a></li>
   </ul></li>
   <li><a href="#ergebnisse" id="toc-ergebnisse" class="nav-link" data-scroll-target="#ergebnisse">4. Ergebnisse</a>
   <ul class="collapse">
@@ -84,6 +88,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#diskussion" id="toc-diskussion" class="nav-link" data-scroll-target="#diskussion">5. Diskussion</a></li>
   <li><a href="#literaturverzeichnis" id="toc-literaturverzeichnis" class="nav-link" data-scroll-target="#literaturverzeichnis">Literaturverzeichnis</a></li>
+  <li><a href="#anhang-1---rekrutierungstext" id="toc-anhang-1---rekrutierungstext" class="nav-link" data-scroll-target="#anhang-1---rekrutierungstext">Anhang 1 - Rekrutierungstext</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="abstract.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -112,7 +117,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 25, 2025</p>
+      <p class="date">June 8, 2025</p>
     </div>
   </div>
   
@@ -125,7 +130,7 @@ div.csl-indent {
 
 
 <p><strong>GitHub Repository</strong> https://github.com/nat1vecode/SMNF-GruppeB1</p>
-<p><strong>Für die Abgabe aktueller GitHub Hash:</strong> 69smnf420…</p>
+<p><strong>Für die Abgabe aktueller GitHub Hash:</strong> d6e2c29a71247f6ee7e616d8b4aac12ece237290</p>
 <section id="code-of-conduct" class="level2">
 <h2 class="anchored" data-anchor-id="code-of-conduct">Code of Conduct</h2>
 <p>Im Rahmen dieser wissenschaftlichen Arbeit verpflichten sich alle beteiligten Personen zur Einhaltung folgender Verhaltensgrundsätze:</p>
@@ -162,13 +167,81 @@ div.csl-indent {
 <p>Wir haben uns für 2 Teilnehmende entschieden, die in unserem Studiengang sind und somit möglicherweise entsprechende Erfahrungen zu KI haben. Alle Teilnehmenden sind unmittelbar durch Gespräche auf dem Universitätsgelände rekrutiert worden. Dabei haben wir das eine Interview persönlich und das andere online über Discord. Das persönliche Interview wurde mit einem Smartphonemikrofon und das Online-Interview durch die Software OBS aufgenommen. Zur Transkiption haben wir Better-Whisper in einem lokalen Verzeichnis verwendet.</p>
 <p>Für die Analyse haben wir uns für die Bottom-Up-Methode entschieden. Somit haben wir gemeinsam als Gruppe beide Transkriptionen gesichtet und jede Antwort separat, deduktiv kodiert und fortführend alle Codes zusammengefasst und entsprechende große Themen entwickelt. Wir haben keine besondere Software zur Analyse verwendet.</p>
 </section>
+<section id="quantitative-methode" class="level3">
+<h3 class="anchored" data-anchor-id="quantitative-methode">Quantitative Methode</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+ subgraph BASELINE["Phase 1: Ohne KI"]
+    direction TB
+        n4["Post-Baseline-Fragebogen"]
+        n3["Baseline Klassifizierung ohne KI"]
+  end
+ subgraph KI_PHASE["Phase 2: Mit evaluativer KI"]
+    direction TB
+        n5["Klassifizierung mit KI"]
+        n6["Post-Test-Fragebogen"]
+  end
+ subgraph KI_PHASE2["Phase 2: Mit empfehlender KI"]
+    direction TB
+        n12["Klassifizierung mit KI"]
+        n13["Post-Test-Fragebogen &lt;br&gt;"]
+  end
+    n11["Start"] --&gt; n1["Probandeninformationen"]
+    n1 --&gt; n2["Pre-Test-Fragebogen"]
+    n2 --&gt; n3
+    n3 --&gt; n4
+    n5 --&gt; n6
+    n6 --&gt; n7["Verabschiedung &amp; Dank"]
+    n7 --&gt; n8["VP-Stunden-Umfrage"]
+    n8 --&gt; n9["Ende"]
+    n12 --&gt; n13
+    n13 --&gt; n7
+    n4 --&gt; n14["Randomization"]
+    n14 --&gt; n5
+    n14 --&gt; n12
+
+    style n3 color:#000000
+    style n5 color:#000000
+    style n6 color:#000000
+    style n12 color:#000000
+    style n13 color:#000000
+    style n11 color:#000000
+    style n1 color:#000000
+    style n2 color:#000000
+    style n7 color:#000000
+    style n8 color:#000000
+    style n9 color:#000000
+    style n14 color:#000000
+    style KI_PHASE2 fill:transparent
+    style KI_PHASE fill:transparent
+    style BASELINE fill:transparent
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="ergebnisse" class="level2">
 <h2 class="anchored" data-anchor-id="ergebnisse">4. Ergebnisse</h2>
 <section id="qualitative-ergebnisse" class="level3">
 <h3 class="anchored" data-anchor-id="qualitative-ergebnisse">Qualitative Ergebnisse</h3>
 <p>Bei unserer qualitativen Erhebung haben wir zwei Interviews geführt und gemeinsame analysiert. Besonders relevant bei unserer Stichprobe ist, dass beide Interviewpartner in einem jungen Alter sind, dementsprechend regelmäßig Social-Media nutzen und somit schon häufig in Kontakt mit Misinformationen waren.</p>
-<p>Die Analyse</p>
+<p>Im Zuge der Analyse konnten wir einige Themen herausarbeiten, die im Folgenden erläutert werden sollen.</p>
+<p>Zunächst ergibt sich die grundsätzliche Frage nach der Verantwortlichkeit und Regulierung für und von einer entsprechenden Anwendung. Dabei soll festgestellt werden, wo die Befragten die Zuständigkeit für das Betreiben, Instandhalten und die Qualitätsprüfung der Anwendung verorten (z.B. Staatliche Behörden, Social-Media-Plattformen,…). Beispiel: “Aber für die für die Implementation und für die Umsetzung sollten dann halt die Betreiber der verschiedenen Webseiten dann selbstverantwortlich sein.” (B2_1, Zeile 134-136). <a href="#tbl-qualitative" class="quarto-xref">Table&nbsp;1</a></p>
+<p>Des Weiteren beschreibt das Thema “Darstellung und Abruf” die Anforderungen seitens der Befragten an die Kennzeichnung von Misinformation, bspw. durch die Verwendung entsprechender Symbole oder Farben. Hierbei soll auch die richtige Balance bei der Präsenz und Prägnanz der Darstellung gefunden werden: “Ich finde es sollte nicht aufdringlich sein, dementsprechend auch abschaltbar und es sollte sowohl optische als auch sozusagen faktisch nachprüfbare Anteile haben.” (B2_2, Zeile 52-54). <a href="#tbl-qualitative" class="quarto-xref">Table&nbsp;1</a></p>
+<p>Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entscheidungsfindung von Relevanz. Ziel hiervon ist es, den Nutzenden das Nachvollziehen der Beurteilung von Informationen mithilfe entsprechender Begründungen und Angaben von Quellen zu ermöglichen: “Also ich würde mir das so vorstellen, dass wenn es zu einer Entscheidung kommt oder zu einer Einschätzung kommt, dass es dann auch dementsprechend Quellenangaben machen kann. Also dass man dann ganz klar sieht, ok, warum hat es sich jetzt dafür entschieden und wie ist es zu diesem Schluss gekommen.” (B2_1, Zeile 142-146). <a href="#tbl-qualitative" class="quarto-xref">Table&nbsp;1</a></p>
+<div id="tbl-qualitative" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-qualitative-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Themen
+</figcaption>
+<div aria-describedby="tbl-qualitative-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -191,7 +264,7 @@ div.csl-indent {
 <tr class="even">
 <td>Darstellung und Abruf</td>
 <td>Die Anforderungen an die Kennzeichnung von Misinformation, z. B. durch Farbcodes oder kleine Symbole, sowie eine nicht-aufdringliche Integration der KI in die Plattform.</td>
-<td>“Ich finde es sollte nicht aufdringlich sein, dementsprechend auch abschaltbar und es sollte sowohl optische als auch sozusagen faktisch nachprüfbare Anteile haben.” (TP_2, Zeile 52-54)</td>
+<td>“Ich finde es sollte nicht aufdringlich sein, dementsprechend auch abschaltbar und es sollte sowohl optische als auch sozusagen faktisch nachprüfbare Anteile haben.” (B2_2, Zeile 52-54)</td>
 </tr>
 <tr class="odd">
 <td>Transparenz und Quellenangabe</td>
@@ -200,17 +273,17 @@ div.csl-indent {
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
 </section>
 </section>
 <section id="diskussion" class="level2">
 <h2 class="anchored" data-anchor-id="diskussion">5. Diskussion</h2>
 </section>
-<section id="literaturverzeichnis" class="level2 unnumbered">
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literaturverzeichnis</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<section id="literaturverzeichnis" class="level2">
+<h2 class="anchored" data-anchor-id="literaturverzeichnis">Literaturverzeichnis</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-cheng2024" class="csl-entry" role="listitem">
 Cheng, Y., Wang, Y., &amp; Lee, J. (2024). Using a chatbot to combat misinformation: Exploring gratifications, chatbot satisfaction and engagement, and relationship quality using a chatbot to combat misinformation: Exploring gratifications, chatbot satisfaction and engagement, and relationship quality. <em>International Journal of Human-Computer Interaction</em>. <a href="https://doi.org/10.1080/10447318.2024.2344149">https://doi.org/10.1080/10447318.2024.2344149</a>
 </div>
@@ -223,7 +296,23 @@ Jahanbakhsh, F., Katsis, Y., Wang, D., Popa, L., &amp; Muller, M. (2023). Explor
 <div id="ref-indu2022" class="csl-entry" role="listitem">
 V, I., &amp; Thampi, S. M. (2022).<span class="nocase">Cognitive AI for Mitigation of Misinformation in Online Social Networks </span>. <em>IT Professional</em>, <em>24</em>(05), 37–45. <a href="https://doi.org/10.1109/MITP.2022.3168790">https://doi.org/10.1109/MITP.2022.3168790</a>
 </div>
-</div></section></div></main>
+</div>
+</section>
+<section id="anhang-1---rekrutierungstext" class="level2">
+<h2 class="anchored" data-anchor-id="anhang-1---rekrutierungstext">Anhang 1 - Rekrutierungstext</h2>
+<p>Hast du schonmal einen Post auf Social Media gesehen und warst dir nicht sicher, ob er wahr oder falsch ist? Misinformation auf Social Media ist oft schwer zu erkennen. In unsere Online-Studie untersuchen wir, inwiefern Künstliche Intelligenz dabei unterstützen kann, solche Inhalte besser zu identifizieren.</p>
+<p>Voraussetzungen</p>
+<pre><code>mindestens 18 Jahre alt bist
+gut Deutsch sprichst
+einen PC oder ein Tablet zur Verfügung hast (keine Smartphone-Teilnahme möglich)
+60 Minuten Zeit</code></pre>
+<p>Teilnahmelink:</p>
+<p>Link öffnen (Bitte im Browser auf einem PC oder Tablet öffnen.)</p>
+<p>Vergütung:</p>
+<p>Studierende der Medieninformatik oder Psychologie an der Universität zu Lübeck können 1 VP-Stunde erhalten. Wichtig: Teilnehmende an der AKTUELLEN Veranstaltung SMNF dürfen die Studie nicht bearbeiten.</p>
+</section>
+
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

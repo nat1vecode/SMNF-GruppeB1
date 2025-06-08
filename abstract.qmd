@@ -16,6 +16,7 @@ format:
     fontsize: 12pt
     toc: true
     number-sections: false
+    citation-location: none
 bibliography: Literatur.bib
 csl: apa.csl
 
@@ -24,7 +25,7 @@ output-file: abstract
 
 **GitHub Repository** https://github.com/nat1vecode/SMNF-GruppeB1
 
-**Für die Abgabe aktueller GitHub Hash:** 69smnf420...
+**Für die Abgabe aktueller GitHub Hash:** d6e2c29a71247f6ee7e616d8b4aac12ece237290
 
 ## Code of Conduct
 
@@ -80,6 +81,58 @@ Wir haben uns für 2 Teilnehmende entschieden, die in unserem Studiengang sind u
 
 Für die Analyse haben wir uns für die Bottom-Up-Methode entschieden. Somit haben wir gemeinsam als Gruppe beide Transkriptionen gesichtet und jede Antwort separat, deduktiv kodiert und fortführend alle Codes zusammengefasst und entsprechende große Themen entwickelt. Wir haben keine besondere Software zur Analyse verwendet.
 
+
+### Quantitative Methode
+```{mermaid}
+flowchart LR
+ subgraph BASELINE["Phase 1: Ohne KI"]
+    direction TB
+        n4["Post-Baseline-Fragebogen"]
+        n3["Baseline Klassifizierung ohne KI"]
+  end
+ subgraph KI_PHASE["Phase 2: Mit evaluativer KI"]
+    direction TB
+        n5["Klassifizierung mit KI"]
+        n6["Post-Test-Fragebogen"]
+  end
+ subgraph KI_PHASE2["Phase 2: Mit empfehlender KI"]
+    direction TB
+        n12["Klassifizierung mit KI"]
+        n13["Post-Test-Fragebogen <br>"]
+  end
+    n11["Start"] --> n1["Probandeninformationen"]
+    n1 --> n2["Pre-Test-Fragebogen"]
+    n2 --> n3
+    n3 --> n4
+    n5 --> n6
+    n6 --> n7["Verabschiedung & Dank"]
+    n7 --> n8["VP-Stunden-Umfrage"]
+    n8 --> n9["Ende"]
+    n12 --> n13
+    n13 --> n7
+    n4 --> n14["Randomization"]
+    n14 --> n5
+    n14 --> n12
+
+    style n3 color:#000000
+    style n5 color:#000000
+    style n6 color:#000000
+    style n12 color:#000000
+    style n13 color:#000000
+    style n11 color:#000000
+    style n1 color:#000000
+    style n2 color:#000000
+    style n7 color:#000000
+    style n8 color:#000000
+    style n9 color:#000000
+    style n14 color:#000000
+    style KI_PHASE2 fill:transparent
+    style KI_PHASE fill:transparent
+    style BASELINE fill:transparent
+```
+   
+
+
 ## 4. Ergebnisse
 
 ### Qualitative Ergebnisse
@@ -95,7 +148,7 @@ Des Weiteren beschreibt das Thema "Darstellung und Abruf" die Anforderungen seit
 Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entscheidungsfindung von Relevanz. Ziel hiervon ist es, den Nutzenden das Nachvollziehen der Beurteilung von Informationen mithilfe entsprechender Begründungen und Angaben von Quellen zu ermöglichen: "Also ich würde mir das so vorstellen, dass wenn es zu einer Entscheidung kommt oder zu einer Einschätzung kommt, dass es dann auch dementsprechend Quellenangaben machen kann. Also dass man dann ganz klar sieht, ok, warum hat es sich jetzt dafür entschieden und wie ist es zu diesem Schluss gekommen." (B2_1, Zeile 142-146). @tbl-qualitative
 
 | Thema | Definition | Textstelle |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Verantwortlichkeit und Regulierung | Die Frage nach der Verantwortlichkeit für Betreiben und Regulieren eines solchen KI-Systems (bspw. Plattformbetreiber, Staat oder Aufsichtsbehörden), insbesondere in Fällen von Versagen. | "Aber für die für die Implementation und für die Umsetzung sollten dann halt die Betreiber der verschiedenen Webseiten dann selbstverantwortlich sein." (B2_1, Zeile 134-136) |
 | Darstellung und Abruf | Die Anforderungen an die Kennzeichnung von Misinformation, z. B. durch Farbcodes oder kleine Symbole, sowie eine nicht-aufdringliche Integration der KI in die Plattform. | "Ich finde es sollte nicht aufdringlich sein, dementsprechend auch abschaltbar und es sollte sowohl optische als auch sozusagen faktisch nachprüfbare Anteile haben." (B2_2, Zeile 52-54) |
 | Transparenz und Quellenangabe | Die Anforderungen an die Nachvollziehbarkeit von KI-Entscheidungen, etwa durch transparente Quellenangaben, eine klare Darstellung des Prüfprozesses und die Offenlegung der Bewertungsgrundlagen. | "Also ich würde mir das so vorstellen, dass wenn es zu einer Entscheidung kommt oder zu einer Einschätzung kommt, dass es dann auch dementsprechend Quellenangaben machen kann. Also dass man dann ganz klar sieht, ok, warum hat es sich jetzt dafür entschieden und wie ist es zu diesem Schluss gekommen." (B2_1, Zeile 142-146) |
@@ -105,3 +158,26 @@ Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entsche
 ## 5. Diskussion
 
 ## Literaturverzeichnis
+::: {#refs}
+:::
+
+
+## Anhang 1 - Rekrutierungstext
+Hast du schonmal einen Post auf Social Media gesehen und warst dir nicht sicher, ob er wahr oder falsch ist? Misinformation auf Social Media ist oft schwer zu erkennen. In unsere Online-Studie untersuchen wir, inwiefern Künstliche Intelligenz dabei unterstützen kann, solche Inhalte besser zu identifizieren.
+
+Voraussetzungen
+
+    mindestens 18 Jahre alt bist
+    gut Deutsch sprichst
+    einen PC oder ein Tablet zur Verfügung hast (keine Smartphone-Teilnahme möglich)
+    60 Minuten Zeit
+
+Teilnahmelink:
+
+Link öffnen   (Bitte im Browser auf einem PC oder Tablet öffnen.)
+
+
+Vergütung:
+
+Studierende der Medieninformatik oder Psychologie an der Universität zu Lübeck können 1 VP-Stunde erhalten. Wichtig: Teilnehmende an der AKTUELLEN Veranstaltung SMNF dürfen die Studie nicht bearbeiten.
+
