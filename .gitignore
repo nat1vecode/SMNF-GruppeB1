@@ -39,3 +39,8 @@ rsconnect/
 *.csv
 abstract_files/*
 abstract.html
+abstract.aux
+abstract.log
+abstract.tex
+abstract.toc
+images/*
