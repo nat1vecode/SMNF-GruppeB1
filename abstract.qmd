@@ -103,6 +103,13 @@ Wir haben wir uns bei der Erhebungsmethode für eine quantitative Methode entsch
 
 #### Geplante Analysen
 
+Mittels eines t-Tests soll untersucht werden, inwiefern der Einsatz von KI-Systemen die Entscheidungssicherheit bei der Bewertung von Misinformationen beeinflusst. Als abhängige Variable für den t-Test ist somit die Entscheidungssicherheit, die im Rahmen der Post-Klassifizierung ordinal auf einer sechsstufigen Skala erfasst wird. Verglichen werden die Mittelwerte der Baseline-Gruppe (ohne KI-Unterstützung) mit jenen der KI-Empfehlungsgruppe. Wir erwarten hierbei, dass die KI die Entscheidungssicherheit insgesamt erhöht, weshalb ein gerichteter t-Test geplant ist.
+Wir halten die Analyse für relevant, da die Entscheidungssicherheit der Nutzenden bei der Beurteilung von Misinformationen wesentlich zu Akzeptanz und Effektivität von KI-Systemen beiträgt.
+
+Des Weiteren soll bestimmt werden, ob eine Korrelation zwischen der Vorerfahrung mit KI seitens der Nutzenden mit der Bearbeitungszeit bei der Entscheidung besteht. Die zu untersuchenden Variablen sind hierbei „Vorwissen KI“, das im Rahmen des Pre-Test-Fragebogens auf einer Skala von 1-5 erfasst wird, sowie die in Sekunden bzw. Millisekunden gemessene „Bearbeitungszeit“ aus der Post-Klassifizierung.
+Unsere Vermutung hierzu ist, dass Teilnehmende die eine größere Vorerfahrung mit KI angeben, eine geringere Bearbeitungszeit benötigen. Dies würde einer negativen Korrelation entsprechen.
+Von den Ergebnissen dieser Analyse erhoffen wir uns Erkenntnisse über die Auswirkungen bestehender bzw. fehlender Vorerfahrungen mit KI im Zuge der effizienten Nutzung von KI-gestützten Entscheidungssystemen.
+
 ::: {#fig-ablaufdiagramm .figure .quarto-figure}
 ```{mermaid}
 %%| fig-responsive: true
@@ -186,10 +193,10 @@ Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entsche
 ::: {#refs}
 :::
 
-## Anhang 1 - Rekrutierungstext
+### Anhang 1 - Rekrutierungstext
 
-Jeden Tag werden unzählbare viele Inhalte auf Social Media veröffentlicht. Jeder kann selbst zum Autor werden und nicht immer ist klar, welche Information tatsächlich wahr ist. So entstehen schnell Missinformationen.\
-Um dieses Problem weiter zu untersuchen, möchten wir mit unserer Studie herausfinden, ob eine künstliche Intelligenz dabei helfen kann, Missinformationen zu identifzieren und entsprechend zu kennzeichnen.
+Jeden Tag werden unzählbar viele Inhalte auf Social Media veröffentlicht. Jeder kann selbst zum Autor werden und nicht immer ist klar, welche Information tatsächlich wahr ist. So entstehen schnell Missinformationen.\
+Um dieses Problem weiter zu untersuchen, möchten wir mit unserer Studie herausfinden, ob eine künstliche Intelligenz dabei helfen kann, Missinformationen zu identifzieren und entsprechend zu kennzeichnen. Du sollst hierbei einmal ohne und einmal mit Empfehlung der KI entscheiden, ob ein Post Missinformation darstellt oder nicht.
 
 Voraussetzungen
 
