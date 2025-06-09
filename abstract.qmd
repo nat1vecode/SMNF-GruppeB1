@@ -99,7 +99,7 @@ Ausschlusskriterien für Teilnehmer unserer Erhebung waren, dass sie minderjähr
 
 #### Beschreibung der gewählten Erhebungsmethode
 
-Wir haben wir uns bei der Erhebungsmethode für eine quantitative Methode entschieden. Hierzu wurden im Pre-Test-, Post-Baseline- und Post-Test-Fragebogen Skalen verwendet. Bei der Klassifizierung der Posts wurden je Post messbare Variablen sowie die Entscheidungssicherheit des Nutzers über eine Skala aufgenommen.
+Wir haben wir uns bei der Erhebungsmethode für eine quantitative Methode entschieden. Hierzu wurden im Pre-Test-, Post-Baseline- und Post-Test-Fragebogen Skalen verwendet. Bei der Klassifizierung der Posts wurden je Post messbare Variablen sowie die Entscheidungssicherheit des Nutzers über eine Skala aufgenommen. Unter anderem wird die Technik-Affinität mittels einer ATI-Skala gemessen, das Informationsbewusstsein mithilfe einer SIPA-Skala und die Usability durch eine System Usability Scale.
 
 #### Geplante Analysen
 
