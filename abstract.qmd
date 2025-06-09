@@ -25,7 +25,7 @@ output-file: abstract
 
 **GitHub Repository** https://github.com/nat1vecode/SMNF-GruppeB1
 
-**Für die Abgabe aktueller GitHub Hash:** d6e2c29a71247f6ee7e616d8b4aac12ece237290
+**Für die Abgabe aktueller GitHub Hash:** 20208e41a087d59c2922c078d10c81a0f527c822
 
 ## Code of Conduct
 
@@ -85,11 +85,11 @@ Für die Analyse haben wir uns für die Bottom-Up-Methode entschieden. Somit hab
 
 #### Ablauf der Datenerhebung
 
-Für unsere quantitative Erhebung begann die Datenerhebung am Samstag, den 31.05.2025, und endete am Montag, den 10.06.2025. Zur Teilnahme an der Erhebung wurde den Probanden ein Link zur Verfügung gestellt, über den sie eigenständig teilnehmen konnten. Wir entschieden uns für ein Mixed Design, also eine Kombination aus einem Between-Subjects-Design und einem Within-Subjects-Design (@fig-ablaufdiagramm). Zur Untersuchung des Effekts von KI als Unterstützung bei der Detektion von Missinformationen sollten die Teilnehmenden zunächst Beiträge ohne KI bewerten und anschließend mit KI (Within-Subjects-Design). Um außerdem Unterschiede zwischen evaluativer und empfehlender KI in Bezug auf Workload, Genauigkeit etc. festzustellen, wurden die Teilnehmenden im zweiten Teil zufällig einer der beiden KI-Varianten zugeordnet. Jeweils die Hälfte der Antworten bezieht sich auf eine der beiden KI-Varianten (@fig-ablaufdiagramm).
+Für unsere quantitative Erhebung begann die Datenerhebung am Samstag, den 31.05.2025, und endete am Montag, den 09.06.2025. Zur Teilnahme an der Erhebung wurde den Probanden ein Link zur Verfügung gestellt, über den sie eigenständig teilnehmen konnten. Wir entschieden uns für ein Mixed Design, also eine Kombination aus einem Between-Subjects-Design und einem Within-Subjects-Design (@fig-ablaufdiagramm). Zur Untersuchung des Effekts von KI als Unterstützung bei der Detektion von Misinformationen sollten die Teilnehmenden zunächst Beiträge ohne KI bewerten und anschließend mit KI (Within-Subjects-Design). Um außerdem Unterschiede zwischen evaluativer und empfehlender KI in Bezug auf Workload, Genauigkeit etc. festzustellen, wurden die Teilnehmenden im zweiten Teil zufällig einer der beiden KI-Varianten zugeordnet. Jeweils die Hälfte der Antworten bezieht sich auf eine der beiden KI-Varianten (@fig-ablaufdiagramm).
 
 #### Beschreibung der Teilnehmenden
 
-Zum Abschluss unserer Erhebung haben 17 Teilnehmende unsere Studie vollständig abgeschlossen. Primär haben wir die Erhebung mit Studierenden und Personen im Alter zwischen 18 und 30 Jahren geteilt. Diese Zielgruppe wählten wir bewusst aus, da sie häufig viel Zeit auf sozialen Medien verbringen und im Rahmen von Studium oder Arbeit regelmäßig mit Recherche konfrontiert sind. Dadurch sind sie besonders häufig Missinformationen ausgesetzt. Dies führt dazu, dass sie ein aktuelleres Problembewusstsein im Umgang mit Missinformationen haben, was eine erhöhte Motivation zur Nutzung des Systems sowie ein besseres Verständnis für Risiken und Relevanz begünstigt. Ihre Anforderungen sind somit besonders aussagekräftig für die Gestaltung zukünftiger Systeme.
+Zum Abschluss unserer Erhebung haben 17 Teilnehmende unsere Studie vollständig abgeschlossen. Primär haben wir die Erhebung mit Studierenden und Personen im Alter zwischen 18 und 30 Jahren geteilt. Diese Zielgruppe wählten wir bewusst aus, da sie häufig viel Zeit auf sozialen Medien verbringen und im Rahmen von Studium oder Arbeit regelmäßig mit Recherche konfrontiert sind. Dadurch sind sie besonders häufig Misinformationen ausgesetzt. Dies führt dazu, dass sie ein aktuelleres Problembewusstsein im Umgang mit Misinformationen haben, was eine erhöhte Motivation zur Nutzung des Systems sowie ein besseres Verständnis für Risiken und Relevanz begünstigt. Ihre Anforderungen sind somit besonders aussagekräftig für die Gestaltung zukünftiger Systeme.
 
 Gleichzeitig haben viele Teilnehmende bereits privat oder beruflich Erfahrungen mit KI-Tools gesammelt, wodurch ihre Nutzung und Bewertung des KI-Systems in unserer Erhebung realitätsnäher und reflektierter ausfallen könnte.
 
@@ -195,8 +195,8 @@ Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entsche
 
 ### Anhang 1 - Rekrutierungstext
 
-Jeden Tag werden unzählbar viele Inhalte auf Social Media veröffentlicht. Jeder kann selbst zum Autor werden und nicht immer ist klar, welche Information tatsächlich wahr ist. So entstehen schnell Missinformationen.\
-Um dieses Problem weiter zu untersuchen, möchten wir mit unserer Studie herausfinden, ob eine künstliche Intelligenz dabei helfen kann, Missinformationen zu identifzieren und entsprechend zu kennzeichnen. Du sollst hierbei einmal ohne und einmal mit Empfehlung der KI entscheiden, ob ein Post Missinformation darstellt oder nicht.
+Jeden Tag werden unzählbar viele Inhalte auf Social Media veröffentlicht. Jeder kann selbst zum Autor werden und nicht immer ist klar, welche Information tatsächlich wahr ist. So entstehen schnell Misinformationen.\
+Um dieses Problem weiter zu untersuchen, möchten wir mit unserer Studie herausfinden, ob eine künstliche Intelligenz dabei helfen kann, Misinformationen zu identifzieren und entsprechend zu kennzeichnen. Du sollst hierbei einmal ohne und einmal mit Empfehlung der KI entscheiden, ob ein Post Misinformation darstellt oder nicht.
 
 Voraussetzungen
 
