@@ -44,3 +44,4 @@ abstract.log
 abstract.tex
 abstract.toc
 images/*
+.DS_Store
