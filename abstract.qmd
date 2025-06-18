@@ -93,7 +93,7 @@ Zum Abschluss unserer Erhebung haben 17 Teilnehmende unsere Studie vollständig 
 
 Gleichzeitig haben viele Teilnehmende bereits privat oder beruflich Erfahrungen mit KI-Tools gesammelt, wodurch ihre Nutzung und Bewertung des KI-Systems in unserer Erhebung realitätsnäher und reflektierter ausfallen könnte.
 
-Um jedoch auch mögliche Unterschiede in den Ergebnissen zwischen verschiedenen Altersgruppen feststellen zu können, waren wir bemüht, zusätzlich Teilnehmende außerhalb des oben genannten Altersspektrums zu rekrutieren.
+Um jedoch auch mögliche Unterschiede in den Ergebnissen zwischen verschiedenen Altersgruppen feststellen zu können, waren wir bemüht, zusätzlich Teilnehmende außerhalb des oben genannten Altersspektrum zu rekrutieren.
 
 Ausschlusskriterien für Teilnehmer unserer Erhebung waren, dass sie minderjährig sind und aktuell die Veranstalltung SMNF besuchen.
 
@@ -213,3 +213,20 @@ Link öffnen (Bitte im Browser auf einem PC oder Tablet öffnen.)
 VP-Stunden:
 
 Studierende der Medieninformatik oder Psychologie an der Universität zu Lübeck können für die Teilnahme 1 VP-Stunde erhalten.
+
+``` R
+library(dplyr)
+library(psych)
+
+data_combined <- read.csv("data_combined.csv")
+web_app_data <- read.csv("web_app_data.csv")
+
+filtered_data_combined <- data_combined %>%
+  filter(Alter > 18 & Alter < 120) %>%
+  
+
+filtered_web_app_data <- web_app_data %>%
+  filter(Alter > 18 & Alter < 120)
+
+filtered_data_combined
+```
