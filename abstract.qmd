@@ -328,13 +328,13 @@ ki_means <- datengesamt %>%
   group_by(participantId) %>%
   summarise(mean_confidence_ki = mean(confidence, na.rm = TRUE))
 
-vergleich <- baseline_means %>%
+combined <- baseline_means %>%
   full_join(ki_means, by = "participantId")
 
 
-t_test <- t.test(vergleich$mean_confidence_baseline, vergleich$mean_confidence_ki, paired = TRUE)
+t_test <- t.test(combined$mean_confidence_baseline, combined$mean_confidence_ki, paired = TRUE)
 
-plot_data <- vergleich %>%
+plot_data <- combined %>%
   pivot_longer(
     cols = c(mean_confidence_baseline, mean_confidence_ki),
     names_to = "group",
@@ -370,13 +370,28 @@ ggplot(plot_summary, aes(x = group, y = mean)) +
   
 
 
-time_on_task_means <- datengesamt %>%
+time_on_task_means <- data_combined %>%
   filter(system %in% c("E", "R")) %>%  # Nur KI-Systeme
   group_by(participantId) %>%                     # Gruppieren nach Nutzer
   summarise(mean_confidence_baseline = mean(time_on_task, na.rm = TRUE)) 
 
+summary(time_on_task_means)
 
 
+aiknowledge_per_user <- data_combined %>%
+  select(aiknowledge, participantId)
+
+summary(aiknowledge_per_user)
+
+# Join mit Zeitdaten
+combined_with_id <- aiknowledge_per_user %>%
+  full_join(time_on_task_means, by = "participantId")
+
+combined <- combined_with_id %>%
+  select(-participantId)
+
+# Korrelation berechnen
+cor.test(combined$mean_time_on_task, combined$aiknowledge, method = "pearson")
 
 
 ```
