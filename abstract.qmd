@@ -369,6 +369,8 @@ combined <- baseline_means %>%
 
 t_test <- t.test(combined$mean_confidence_baseline, combined$mean_confidence_ki, paired = TRUE)
 
+t_test
+
 plot_data <- combined %>%
   pivot_longer(
     cols = c(mean_confidence_baseline, mean_confidence_ki),
@@ -426,6 +428,7 @@ time_on_task_means <- time_on_task_means %>%
   )
 
 cor(time_on_task_means$time_on_task_mean, time_on_task_means$aiknowledge, method = "pearson")
+
 
 ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
   geom_point(color = "steelblue", size = 2) +
