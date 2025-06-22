@@ -222,23 +222,33 @@ library(psych)
 library(knitr)
 library(ggplot2)
 library(tidyr)
+library(kableExtra)
 
 data_combined <- read.csv("data_combined.csv")
 web_app_data <- read.csv("web_app_data.csv")
 
 
+#Filtern und Gruppieren:
 
 filtered_data_combined <- data_combined %>%
   filter(age > 18 & age < 120) 
   
-
-
-
 datengesamt <- filtered_data_combined %>% full_join(web_app_data, by = "participantId")
-
 
 daten_clean <- datengesamt %>%
   filter(!is.na(confidence), !is.na(system), !is.na(time_on_task), !is.na(aiknowledge))
+
+
+
+
+
+
+
+
+
+
+
+#Metrische Werte und Tabelle:
 
 deskriptiv <- daten_clean %>%
   summarise(
@@ -264,13 +274,9 @@ deskriptiv <- daten_clean %>%
     max_ai = max(aiknowledge)
   )
 
-# Schritt 1: Annahme, dein summarise-Ergebnis heißt 'deskriptiv'
-# Beispiel: deskriptiv <- daten_clean %>% summarise(...)
 
-# Schritt 2: Definiere die Variablennamen als Vektor
 variablen <- c("confidence", "time_on_task", "aiknowledge")
 
-# Schritt 3: Werte aus 'deskriptiv' auslesen
 n <- c(deskriptiv$n_confidence, deskriptiv$n_time, deskriptiv$n_ai)
 mean <- c(deskriptiv$mean_conf, deskriptiv$mean_time, deskriptiv$mean_ai)
 sd <- c(deskriptiv$sd_conf, deskriptiv$sd_time, deskriptiv$sd_ai)
@@ -278,7 +284,6 @@ median <- c(deskriptiv$median_conf, deskriptiv$median_time, deskriptiv$median_ai
 min <- c(deskriptiv$min_conf, deskriptiv$min_time, deskriptiv$min_ai)
 max <- c(deskriptiv$max_conf, deskriptiv$max_time, deskriptiv$max_ai)
 
-# Schritt 4: Dataframe bauen
 deskriptiv_tabelle <- data.frame(
   Variable = variablen,
   n = n,
@@ -289,13 +294,25 @@ deskriptiv_tabelle <- data.frame(
   max = max
 )
 
-# Schritt 5: Tabelle ausgeben
-print(deskriptiv_tabelle)
+
+deskriptiv_tabelle %>%
+  kable("html", caption = "Metrische Statistiken", digits = 2) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F, position = "center")
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+#Kategoriale Werte und Tabelle:
 
 
 abs_haeufigkeit <- table(daten_clean$system)
@@ -315,16 +332,34 @@ kategoriale_tabelle <- data.frame(
   Prozent = round(as.vector(rel_haeufigkeit), 1)
 )
 
-kategoriale_tabelle
 
-# Mittelwert der Confidence-Werte pro User für die Baseline-Bedingung berechnen
+kategoriale_tabelle %>%
+  kable("html", caption = "Kategoriale Statistiken", digits = 2) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F, position = "center")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#T-Test:
+
 baseline_means <- datengesamt %>%
-  filter(system == "B") %>%                # Nur Baseline-Durchläufe
-  group_by(participantId) %>%                     # Gruppieren nach Nutzer
-  summarise(mean_confidence_baseline = mean(confidence, na.rm = TRUE))  # Mittelwert berechnen
+  filter(system == "B") %>%                
+  group_by(participantId) %>%                     
+  summarise(mean_confidence_baseline = mean(confidence, na.rm = TRUE))   
 
 ki_means <- datengesamt %>%
-  filter(system %in% c("E", "R")) %>%  # Nur KI-Systeme
+  filter(system %in% c("E", "R")) %>%  
   group_by(participantId) %>%
   summarise(mean_confidence_ki = mean(confidence, na.rm = TRUE))
 
@@ -357,7 +392,6 @@ plot_summary <- plot_data %>%
   )
 
 
-
 ggplot(plot_summary, aes(x = group, y = mean)) +
   geom_point(size = 4, color = "#2C3E50") +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.1, color = "#2C3E50") +
@@ -368,6 +402,21 @@ ggplot(plot_summary, aes(x = group, y = mean)) +
   ) +
   theme_minimal(base_size = 14)
   
+
+
+
+
+
+
+
+
+
+
+
+
+#Korrelation:
+
+
 time_on_task_means <- filtered_data_combined[, c("aiknowledge", "time_on_task_mean_E", "time_on_task_mean_R")]
 
 time_on_task_means <- time_on_task_means %>%
@@ -378,7 +427,15 @@ time_on_task_means <- time_on_task_means %>%
 
 cor(time_on_task_means$time_on_task_mean, time_on_task_means$aiknowledge, method = "pearson")
 
-
+ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
+  geom_point(color = "steelblue", size = 2) +
+  geom_smooth(method = "lm", se = TRUE, color = "darkred") +
+  labs(
+    title = "Korrelation zwischen Zeitaufwand und KI-Wissen",
+    x = "Durchschnittliche Bearbeitungszeit",
+    y = "KI-Wissen (aiknowledge)"
+  ) +
+  theme_minimal(base_size = 14)
 
 
 
