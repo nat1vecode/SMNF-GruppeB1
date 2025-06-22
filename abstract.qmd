@@ -368,30 +368,20 @@ ggplot(plot_summary, aes(x = group, y = mean)) +
   ) +
   theme_minimal(base_size = 14)
   
+time_on_task_means <- filtered_data_combined[, c("aiknowledge", "time_on_task_mean_E", "time_on_task_mean_R")]
+
+time_on_task_means <- time_on_task_means %>%
+  mutate(
+    time_on_task_mean = as.numeric(coalesce(time_on_task_mean_E, time_on_task_mean_R)),
+    aiknowledge = as.numeric(aiknowledge)
+  )
+
+cor(time_on_task_means$time_on_task_mean, time_on_task_means$aiknowledge, method = "pearson")
 
 
-time_on_task_means <- data_combined %>%
-  filter(system %in% c("E", "R")) %>%  # Nur KI-Systeme
-  group_by(participantId) %>%                     # Gruppieren nach Nutzer
-  summarise(mean_confidence_baseline = mean(time_on_task, na.rm = TRUE)) 
-
-summary(time_on_task_means)
 
 
-aiknowledge_per_user <- data_combined %>%
-  select(aiknowledge, participantId)
 
-summary(aiknowledge_per_user)
-
-# Join mit Zeitdaten
-combined_with_id <- aiknowledge_per_user %>%
-  full_join(time_on_task_means, by = "participantId")
-
-combined <- combined_with_id %>%
-  select(-participantId)
-
-# Korrelation berechnen
-cor.test(combined$mean_time_on_task, combined$aiknowledge, method = "pearson")
 
 
 ```
