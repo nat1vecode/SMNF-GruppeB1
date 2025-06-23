@@ -216,6 +216,12 @@ VP-Stunden:
 
 Studierende der Medieninformatik oder Psychologie an der Universität zu Lübeck können für die Teilnahme 1 VP-Stunde erhalten.
 
+### Stichprobe
+
+Die vorliegende Stichprobe wurde im Rahmen einer Online-Befragung erhoben, die über einen web Link verteilt wurde. Der Erhebungszeitraum erstreckte sich dabei vom 31.05.2025 bis zum 09.06.2025. Insgesamt nahmen 176 Personen an der Befragung teil. Die Zusammensetzung der Stichprobe weist einen Anteil von \[Prozentzahl\]% weiblichen und \[Prozentzahl\]% männlichen Teilnehmern auf. Der Altersdurchschnitt der Stichprobe betrögt dabei \[Alter\] Jahre mit einer Standardabweichung von \[SD\]. Bezüglich des Bildungsniveaus gaben \[Prozentzahl\]% der Teilnehmenden an, einen \[Art des Abschlusses\] zu besitzen, während \[Prozentzahl\]% einen \[anderer Abschluss\] vorweisen konnten. Die Selbsteinschätzung der Teilnehmenden hinsichtlich ihrer Kenntnisse über Künstliche Intelligenz variierte auf einer Skala von \[min. Wert\] bis \[max. Wert\]. Die durchschnittliche Bearbeitungszeit des Fragebogens lag bei \[Zeitangabe\] Minuten.
+
+Die Datenerhebung erfolgte anonym und freiwillig. Zudem wurden keine personenbezogenen Daten erhoben, die eine Identifizierung ermöglichen würden. Ziel der Befragung war es, ein breites Meinungsbild zu verschiedenen Aspekten rund um digitale Mediennutzung und technologische Kompetenzen im Bezug auf KI und Missinformationen im Internet zu erfassen. Die Ergebnisse der Studie sollen einen Beitrag zum besseren Verständnis digitaler Verhaltensweisen liefern.
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
 library(psych)
