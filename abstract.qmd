@@ -112,6 +112,7 @@ Des Weiteren soll bestimmt werden, ob eine Korrelation zwischen der Vorerfahrung
 %%| fig-responsive: true
 %%| label: Ablaufdiagramm
 %%| fig-cap: Ablaufdiagramm der quantitativen Studie
+%%| fig-width: 6.5
 flowchart LR
  subgraph BASELINE["Phase 1: Ohne KI"]
     direction TB
@@ -182,7 +183,143 @@ Außerdem ist die Transparenz und Quellenangabe seitens der KI bei ihrer Entsche
 
 : Themen {#tbl-qualitative}
 
-###Quantitative Ergebniss
+## Quantitative Ergebnisse
+
+**Hinweis auf Einsatz von KI:** Zur Aufbereitung der Daten und Berechnung des t-Tests, der Korrelation und der deskriptiven Statistik mithilfe von R wurde eine generative künstliche Intelligenz eingesetzt, die Teile des Codes bereitgestellt hat.
+
+### Stichprobe
+
+Die vorliegende Stichprobe wurde im Rahmen einer Online-Befragung erhoben, die über einen Web-Link verteilt wurde. Der Erhebungszeitraum erstreckte sich dabei vom 31.05.2025 bis zum 09.06.2025. Insgesamt nahmen 176 Personen an der Befragung teil. Die Zusammensetzung der Stichprobe weist einen Anteil von 51% weiblichen und 48% männlichen Teilnehmern auf. 1% gab an, keinem der Geschlechter zuzugehören. Der Altersdurchschnitt der Stichprobe betrögt dabei 26 Jahre mit einer Standardabweichung von 11. Bezüglich des Bildungsniveaus gaben 90% der Teilnehmenden an, einen Abschluss auf Niveau 5 (Abitur oder ähnliche) zu besitzen, während 7% einen Abschluss auf Niveau 4 (Mittlerer Schulabschluss) vorweisen konnten. Die Selbsteinschätzung der Teilnehmenden hinsichtlich ihrer Kenntnisse über Künstliche Intelligenz variierte auf einer Skala von 1 (am wenigsten) bis 5 (am meisten). Die durchschnittliche Bearbeitungszeit des Fragebogens lag bei 26 Minuten.
+
+Die Datenerhebung erfolgte anonym und freiwillig. Zudem wurden keine personenbezogenen Daten erhoben, die eine Identifizierung ermöglichen würden. Ziel der Befragung war es, ein breites Meinungsbild zu verschiedenen Aspekten rund um digitale Mediennutzung und technologische Kompetenzen im Bezug auf KI und Missinformationen im Internet zu erfassen. Die Ergebnisse der Studie sollen einen Beitrag zum besseren Verständnis digitaler Verhaltensweisen liefern.
+
+### Deskriptive Statistik
+
+Untersucht wird zunächst, inwiefern die Entscheidungssicherheit der Probanden bei der Beurteilung diverser Posts von der Verwendung einer KI beeinflusst wird. Zugrunde liegt die Hypothese, die Zuhilfenahme von KI-Systemen könnte das Vertrauen der Probanden in die eigene Beurteilung von (Mis-)Informationen erhöhen.
+
+Die Durchführung dieser Untersuchung erfolgt in Form eines gepaarten t-Tests, der die Mittelwerte der Variable zur Beschreibung der Entscheidungssicherheit, confidence, aus den entsprechenden Systemtypen vergleicht (@fig-mstbl). Der Systemtyp wird hierbei in der unabhängigen Variable system abgebildet, wobei im Rahmen dieser Untersuchung\* nur zwischen den Systemtypen Baseline (ohne KI) und Evaluative/Recommendative (mit KI) differenziert wird (@fig-cstbl). Gewählt wird ein Signifikanzniveau von 0.05. Das Ergebnis entspricht einem p-Wert von 0.0487435. Somit wird das Ergebnis als statistisch signifikant interpretiert, wodurch unsere Hypothese bestätigt wird.
+
+Des Weiteren wird mittels einer Korrelationsanalyse ein möglicher Zusammenhang der Vorerfahrung mit KI seitens der Probanden mit der benötigten Bearbeitungszeit bei der Verwendung der KI geprüft. Die Variable aiknowledge aus dem Pre-Test-Fragebogen bildet hierbei metrisch auf einer self-designed Skala von 1-5 das angegebene KI-Vorwissen der Probanden ab (@fig-mstbl). Die Bearbeitungszeit im Rahmen der Performanzdatenerhebung wird in der Variable time_on_task gespeichert (@fig-mstbl), wobei für diese Analyse nur die Bearbeitungszeit bei Verwendung einer der beiden KI-Systemtypen berücksichtigt wird.
+
+![](categorial_table.png){#fig-cstbl .figure .quarto-figure fig-cap=""}
+
+![](metric_table.png){#fig-mstbl .figure .quarto-figure fig-cap=""}
+
+### Inferenzstatistik
+
+Um die Hypothese zu überprüfen, ob der Einsatz eines KI-Systems die Entscheidungssicherheit bei der Erkennung von Missinformationen verbessert, haben wir den geplanten t-Test durchgeführt. Dabei wurden die Mittelwerte der Entscheidungssicherheit in der Baseline-Bedingungen (ohne KI) und der KI-Bedingungen miteinander vergleichen. Durch Einsatz der KI (*M* = 4.3, *SD* = 0.8) erzielten die Teilnehmenden eine höhere Entscheidungssicherheit als ohne KI (*M* = 4.0, *SD* = 0.9). Dieser Unterschied ist signifikant (*t*(177) = -6.04, *p* \< .001, *d* = 0.45). Dies deutet darauf hin, dass KI-Empfehlungen dazu beitragen können, das Vertrauen in die eigene Urteilsfähigkeit zu erhöhen (@fig-tTest).
+
+Weiterhin möchten wir die Hypothese überprüfen, die eine kürzere Bearbeitungsdauer bei höherem KI-Vorwissen verspricht. Zwischen Vorerfahrung mit KI und durchschnittlicher Bearbeitungszeit besteht kein signifikanter Zusammenhang (*r*(167) = .05, *p* = .529). Das bedeutet, dass ein höheres KI-Vorwissen nicht mit einer kürzeren Bearbeitungsdauer einherging (@fig-corr).
+
+```{r fig-tTest, fig.cap="Mittelwertvergleich Confidence (Baseline vs. KI)", echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(psych)
+library(knitr)
+library(ggplot2)
+library(tidyr)
+library(kableExtra)
+
+data_combined <- read.csv("data_combined.csv")
+web_app_data <- read.csv("web_app_data.csv")
+
+
+#Filtern und Gruppieren:
+
+filtered_data_combined <- data_combined %>%
+  filter(age > 18 & age < 120) 
+
+datengesamt <- filtered_data_combined %>% full_join(web_app_data, by = "participantId")
+
+daten_clean <- datengesamt %>%
+  filter(!is.na(confidence), !is.na(system), !is.na(time_on_task), !is.na(aiknowledge))
+
+baseline_means <- datengesamt %>%
+  filter(system == "B") %>%                
+  group_by(participantId) %>%                     
+  summarise(mean_confidence_baseline = mean(confidence, na.rm = TRUE))   
+
+ki_means <- datengesamt %>%
+  filter(system %in% c("E", "R")) %>%  
+  group_by(participantId) %>%
+  summarise(mean_confidence_ki = mean(confidence, na.rm = TRUE))
+
+combined <- baseline_means %>%
+  full_join(ki_means, by = "participantId")
+
+
+t_test <- t.test(combined$mean_confidence_baseline, combined$mean_confidence_ki, paired = TRUE)
+
+plot_data <- combined %>%
+  pivot_longer(
+    cols = c(mean_confidence_baseline, mean_confidence_ki),
+    names_to = "group",
+    values_to = "mean_confidence"
+  ) %>%
+  mutate(group = recode(group,
+                        mean_confidence_baseline = "Baseline",
+                        mean_confidence_ki = "KI"))
+
+plot_summary <- plot_data %>%
+  group_by(group) %>%
+  summarise(
+    mean = mean(mean_confidence, na.rm = TRUE),
+    sd = sd(mean_confidence, na.rm = TRUE),
+    n = n(),
+    se = sd / sqrt(n),
+    ci_lower = mean - qt(0.975, df = n - 1) * se,
+    ci_upper = mean + qt(0.975, df = n - 1) * se,
+    .groups = "drop"
+  )
+
+
+ggplot(plot_summary, aes(x = group, y = mean)) +
+  geom_point(size = 4, color = "#2C3E50") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.1, color = "#2C3E50") +
+  labs(
+    x = "Bedingung",
+    y = "Mittlere Confidence"
+  ) +
+  theme_minimal(base_size = 14)
+```
+
+```{r fig-corr, fig.cap="Korrelation zwischen Zeitaufwand und KI-Wissen", echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(psych)
+library(knitr)
+library(ggplot2)
+library(tidyr)
+library(kableExtra)
+
+data_combined <- read.csv("data_combined.csv")
+web_app_data <- read.csv("web_app_data.csv")
+
+
+#Filtern und Gruppieren:
+
+filtered_data_combined <- data_combined %>%
+  filter(age > 18 & age < 120) 
+
+#Korrelation:
+
+
+time_on_task_means <- filtered_data_combined[, c("aiknowledge", "time_on_task_mean_E", "time_on_task_mean_R")]
+
+time_on_task_means <- time_on_task_means %>%
+  mutate(
+    time_on_task_mean = as.numeric(coalesce(time_on_task_mean_E, time_on_task_mean_R)),
+    aiknowledge = as.numeric(aiknowledge)
+  )
+
+
+ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
+  geom_point(color = "steelblue", size = 2) +
+  geom_smooth(method = "lm", se = TRUE, color = "darkred") +
+  labs(
+    x = "Durchschnittliche Bearbeitungszeit",
+    y = "KI-Wissen (aiknowledge)"
+  ) +
+  theme_minimal(base_size = 14)
+```
 
 ## 5. Diskussion
 
@@ -238,16 +375,14 @@ web_app_data <- read.csv("web_app_data.csv")
 
 filtered_data_combined <- data_combined %>%
   filter(age > 18 & age < 120) 
+
+summary <- filtered_data_combined %>%
+  filter(gender == "female")
   
 datengesamt <- filtered_data_combined %>% full_join(web_app_data, by = "participantId")
 
 daten_clean <- datengesamt %>%
   filter(!is.na(confidence), !is.na(system), !is.na(time_on_task), !is.na(aiknowledge))
-
-
-
-
-
 
 
 
@@ -301,9 +436,9 @@ deskriptiv_tabelle <- data.frame(
 )
 
 
-deskriptiv_tabelle %>%
-  kable("html", caption = "Metrische Statistiken", digits = 2) %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F, position = "center")
+#deskriptiv_tabelle %>%
+#  kable("html", caption = "Metrische Statistiken", digits = 2) %>%
+#  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F, position = "center")
 
 
 
@@ -339,9 +474,9 @@ kategoriale_tabelle <- data.frame(
 )
 
 
-kategoriale_tabelle %>%
-  kable("html", caption = "Kategoriale Statistiken", digits = 2) %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F, position = "center")
+#kategoriale_tabelle %>%
+#  kable("html", caption = "Kategoriale Statistiken", digits = 2) %>%
+#  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F, position = "center")
 
 
 
@@ -375,7 +510,6 @@ combined <- baseline_means %>%
 
 t_test <- t.test(combined$mean_confidence_baseline, combined$mean_confidence_ki, paired = TRUE)
 
-t_test
 
 plot_data <- combined %>%
   pivot_longer(
@@ -399,27 +533,7 @@ plot_summary <- plot_data %>%
     .groups = "drop"
   )
 
-
-ggplot(plot_summary, aes(x = group, y = mean)) +
-  geom_point(size = 4, color = "#2C3E50") +
-  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.1, color = "#2C3E50") +
-  labs(
-    title = "Abbildung: Mittelwertvergleich Confidence (Baseline vs. KI)",
-    x = "Bedingung",
-    y = "Mittlere Confidence"
-  ) +
-  theme_minimal(base_size = 14)
   
-
-
-
-
-
-
-
-
-
-
 
 
 #Korrelation:
@@ -433,18 +547,6 @@ time_on_task_means <- time_on_task_means %>%
     aiknowledge = as.numeric(aiknowledge)
   )
 
-cor(time_on_task_means$time_on_task_mean, time_on_task_means$aiknowledge, method = "pearson")
-
-
-ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
-  geom_point(color = "steelblue", size = 2) +
-  geom_smooth(method = "lm", se = TRUE, color = "darkred") +
-  labs(
-    title = "Korrelation zwischen Zeitaufwand und KI-Wissen",
-    x = "Durchschnittliche Bearbeitungszeit",
-    y = "KI-Wissen (aiknowledge)"
-  ) +
-  theme_minimal(base_size = 14)
 
 
 
