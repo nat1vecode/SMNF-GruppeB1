@@ -323,6 +323,26 @@ ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
 
 ## 5. Diskussion
 
+### Limitationen
+
+#### Quantitative Methode
+Die Teilnehmenden unserer Studie wurden überwiegend über eine Online-Verbreitung in einem universitären Umfeld rekrutiert. Diese Art der Rekrutierung kann zu einer Selbstselektion der Teilnehmenden geführt haben, welche eventuell ein besonderes Interesse an KI oder digitaler Mediennutzung haben. Hinzukommt, dass der größte Teil unserer Teilnehmenden angab, einen höheren Bildungsabschluss zu besitzen, wobei der Altersdurchschnitt bei 26 Jahren lag. Diese vorangehenden Punkte zeigen, dass unsere Stichprobe deshalb nicht als repräsentativ für die Gesamtbevölkerung angesehen werden kann.
+
+Bei der Frage zur Vorerfahrung mit KI könnten Teilnehmende aufgrund des aktuell im Trend liegenden KI-Themas zu sozial erwünschten Antworten tendiert haben und somit ihre eigenen Fähigkeiten überschätzt haben.
+
+#### Qualitative Methode
+Bei der qualitativen Erhebung wurden nur zwei Teilnehmende interviewt. Dies ist eine kleine Stichprobengröße für die gewählte Analysemethode. Außerdem wurde ein Interview online und ein Interview in Person durchgeführt. Hierbei wurden unterschiedliche Aufnahmemethoden (Smartphone-Mikrofon vs. OBS) verwendet. Somit könnten mögliche Unterschiede in der Aufnahmequalität und Gesprächsdynamik zu unterschiedlichen Analyseergebnissen geführt haben. Insgesamt sollten unsere Ergebnisse daher mehr als Trend, als eine repräsentative Meinungsabbildung angesehen werden.
+
+### Möglichkeiten für zukünftige Arbeiten
+#### Zielgruppenerweiterung
+Zukünftige Arbeiten könnten gezielt ältere oder technikferne Zielgruppen einbeziehen, um Unterschiede in der Entscheidungssicherheit zwischen Altersgruppen zu analysieren. Außerdem würde eine Durchführung mit einer repräsentativen Zusammensetzung der Stichprobe hinsichtlich Alter, Beruf und Bildungssabschluss zu verallgemeinerbaren Aussagen führen.
+
+#### Experimentielle Variationen des KI-Systems
+Die aus unserer qualitativen Erhebung gewonnenen Anforderungen an ein KI-System hinsichtlich Darstellung und Transparenz könnten in folgenden Arbeiten variiert werden. Hierbei wären Unterschiede in der Art der Darstellung der Quellen (bzw. keine Angabe von Quellen) sowie der Art der Interaktion (dialogbasiert vs. rein informierend über visuelle Marker) von Interesse, um den Einfluss auf Vertrauen und Akzeptanz zu untersuchen.
+
+#### Zeitraumerweiterung
+Unsere Erhebung fand über zehn Tage statt. Eine mehrfache Erhebung über einen längeren Zeitraum hinweg kann aufgrund der aktuellen sehr schnellen Entwicklungen im Bereich KI in Betracht gezogen werden. Somit wäre es möglich, Lerneffekte oder Veränderungen im Vertrauen in KI-Systeme zu untersuchen.
+
 ## Literaturverzeichnis
 
 ::: {#refs}
