@@ -322,30 +322,39 @@ ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
 ```
 
 ## 5. Diskussion
-In den Ergebnissen unserer Studie können wir Rückschlüsse auf gesellschaftliche Phänomene im Zusammenhang mit der Handhabung von digitalen Informationen ziehen. Konkret heißt das, dass KI-Empfehlungen die Entscheidungssicherheit von Nutzenden in sozialen Netzwerken signifikant erhöhen. Diese Information ist wertvoll, um in der zunehmend komplexen Informationslandschaft, die ein hohes Risiko für Misinformation birgt, immer bessere und sinnvollere Systeme zu entwickeln, die den Menschen bei der Orientierung auf digitalen Medien, insbesondere sozialen Medien, unterstützt.
-Wichtig ist zudem die Erkenntnis, dass die KI-Unterstützung vor allem dann angenommen wird, wenn diese verständlich und glaubwürdig präsentiert wird. Ebenfalls lässt sich aus den Interviews schließen, dass eine hohe Sorgfalt bei der Transparenz und Quellenangabe bei etwaigen KI-Systemen erwartet wird. Dies sollten Plattformbetreiber und andere verantwortliche Institutionen bei der Entwicklung zukünftiger KI-Assistenzen beachten. Wie Nutzende auf diese reagieren und was sie erwarten, ist auch für die Politik interessant, die in Regulationen für den Einsatz von KI jeglicher Art schaffen muss und den Bedarf an Kennzeichnung von KI, Quellenoffenlegung und ethischen Risiken so besser feststellen kann.
 
-Fortführend können wir feststellen, dass unsere Arbeit auch eine Relevanz in der wissenschaftlichen Diskussion um Mensch-KI-Interaktion, Vertrauen und Medienkompetenz hat. Erkenntnisse aus einer anderen Studie (Jahanbaksh et al., 2023), die darauf hinweist, dass personalisierte KI-Systeme die Urteilsbildung beeinflussen, können wir bestätigen. Auch hier war die Transparenz und Nachvollziehbarkeit der KI stark gewichtet.
-Was uns zudem auffällt, ist, dass nach unserem Korrelationstest kein weiterer Zusammenhang zwischen technikbezogener Vorerfahrung (ATI) und der Wirkung der KI-Empfehlung gefunden wurde. Dies ist ein Widerspruch zu bisherigen Annahmen, die technikaffinen Menschen eine hohe Akzeptanz und einen hohen Nutzungsgrad von KI-Systemen nahelegt (Frane, T., Attig, C. & Wessel, D., 2019). https://doi.org/10.1080/10447318.2018.1456150 
+### Implikationen für die Gesellschaft
+
+In den Ergebnissen unserer Studie können wir Rückschlüsse auf gesellschaftliche Phänomene im Zusammenhang mit der Handhabung von digitalen Informationen ziehen. Konkret heißt das, dass KI-Empfehlungen die Entscheidungssicherheit von Nutzenden in sozialen Netzwerken signifikant erhöhen. Diese Information ist wertvoll, um in der zunehmend komplexen Informationslandschaft, die ein hohes Risiko für Misinformation birgt, immer bessere und sinnvollere Systeme zu entwickeln, die den Menschen bei der Orientierung auf digitalen Medien, insbesondere sozialen Medien, unterstützt. Wichtig ist zudem die Erkenntnis, dass die KI-Unterstützung vor allem dann angenommen wird, wenn diese verständlich und glaubwürdig präsentiert wird. Ebenfalls lässt sich aus den Interviews schließen, dass eine hohe Sorgfalt bei der Transparenz und Quellenangabe bei etwaigen KI-Systemen erwartet wird. Dies sollten Plattformbetreiber und andere verantwortliche Institutionen bei der Entwicklung zukünftiger KI-Assistenzen beachten. Wie Nutzende auf diese reagieren und was sie erwarten, ist auch für die Politik interessant, die in Regulationen für den Einsatz von KI jeglicher Art schaffen muss und den Bedarf an Kennzeichnung von KI, Quellenoffenlegung und ethischen Risiken so besser feststellen kann.
+
+### Implikationen für die Wissenschaft
+
+Fortführend können wir feststellen, dass unsere Arbeit auch eine Relevanz in der wissenschaftlichen Diskussion um Mensch-KI-Interaktion, Vertrauen und Medienkompetenz hat. Erkenntnisse aus einer anderen Studie [@jahanbakhsh2023], die darauf hinweist, dass personalisierte KI-Systeme die Urteilsbildung beeinflussen, können wir bestätigen. Auch hier war die Transparenz und Nachvollziehbarkeit der KI stark gewichtet. Was uns zudem auffällt, ist, dass nach unserem Korrelationstest kein weiterer Zusammenhang zwischen technikbezogener Vorerfahrung (ATI) und der Wirkung der KI-Empfehlung gefunden wurde. Dies ist ein Widerspruch zu bisherigen Annahmen, die technikaffinen Menschen eine hohe Akzeptanz und einen hohen Nutzungsgrad von KI-Systemen nahelegt [@franke2019].
 
 ### Limitationen
 
 #### Quantitative Methode
+
 Die Teilnehmenden unserer Studie wurden überwiegend über eine Online-Verbreitung in einem universitären Umfeld rekrutiert. Diese Art der Rekrutierung kann zu einer Selbstselektion der Teilnehmenden geführt haben, welche eventuell ein besonderes Interesse an KI oder digitaler Mediennutzung haben. Hinzukommt, dass der größte Teil unserer Teilnehmenden angab, einen höheren Bildungsabschluss zu besitzen, wobei der Altersdurchschnitt bei 26 Jahren lag. Diese vorangehenden Punkte zeigen, dass unsere Stichprobe deshalb nicht als repräsentativ für die Gesamtbevölkerung angesehen werden kann.
 
 Bei der Frage zur Vorerfahrung mit KI könnten Teilnehmende aufgrund des aktuell im Trend liegenden KI-Themas zu sozial erwünschten Antworten tendiert haben und somit ihre eigenen Fähigkeiten überschätzt haben.
 
 #### Qualitative Methode
+
 Bei der qualitativen Erhebung wurden nur zwei Teilnehmende interviewt. Dies ist eine kleine Stichprobengröße für die gewählte Analysemethode. Außerdem wurde ein Interview online und ein Interview in Person durchgeführt. Hierbei wurden unterschiedliche Aufnahmemethoden (Smartphone-Mikrofon vs. OBS) verwendet. Somit könnten mögliche Unterschiede in der Aufnahmequalität und Gesprächsdynamik zu unterschiedlichen Analyseergebnissen geführt haben. Insgesamt sollten unsere Ergebnisse daher mehr als Trend, als eine repräsentative Meinungsabbildung angesehen werden.
 
 ### Möglichkeiten für zukünftige Arbeiten
+
 #### Zielgruppenerweiterung
+
 Zukünftige Arbeiten könnten gezielt ältere oder technikferne Zielgruppen einbeziehen, um Unterschiede in der Entscheidungssicherheit zwischen Altersgruppen zu analysieren. Außerdem würde eine Durchführung mit einer repräsentativen Zusammensetzung der Stichprobe hinsichtlich Alter, Beruf und Bildungssabschluss zu verallgemeinerbaren Aussagen führen.
 
 #### Experimentielle Variationen des KI-Systems
+
 Die aus unserer qualitativen Erhebung gewonnenen Anforderungen an ein KI-System hinsichtlich Darstellung und Transparenz könnten in folgenden Arbeiten variiert werden. Hierbei wären Unterschiede in der Art der Darstellung der Quellen (bzw. keine Angabe von Quellen) sowie der Art der Interaktion (dialogbasiert vs. rein informierend über visuelle Marker) von Interesse, um den Einfluss auf Vertrauen und Akzeptanz zu untersuchen.
 
 #### Zeitraumerweiterung
+
 Unsere Erhebung fand über zehn Tage statt. Eine mehrfache Erhebung über einen längeren Zeitraum hinweg kann aufgrund der aktuellen sehr schnellen Entwicklungen im Bereich KI in Betracht gezogen werden. Somit wäre es möglich, Lerneffekte oder Veränderungen im Vertrauen in KI-Systeme zu untersuchen.
 
 ## Literaturverzeichnis
