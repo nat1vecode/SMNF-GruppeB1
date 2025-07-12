@@ -322,6 +322,11 @@ ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
 ```
 
 ## 5. Diskussion
+In den Ergebnissen unserer Studie können wir Rückschlüsse auf gesellschaftliche Phänomene im Zusammenhang mit der Handhabung von digitalen Informationen ziehen. Konkret heißt das, dass KI-Empfehlungen die Entscheidungssicherheit von Nutzenden in sozialen Netzwerken signifikant erhöhen. Diese Information ist wertvoll, um in der zunehmend komplexen Informationslandschaft, die ein hohes Risiko für Misinformation birgt, immer bessere und sinnvollere Systeme zu entwickeln, die den Menschen bei der Orientierung auf digitalen Medien, insbesondere sozialen Medien, unterstützt.
+Wichtig ist zudem die Erkenntnis, dass die KI-Unterstützung vor allem dann angenommen wird, wenn diese verständlich und glaubwürdig präsentiert wird. Ebenfalls lässt sich aus den Interviews schließen, dass eine hohe Sorgfalt bei der Transparenz und Quellenangabe bei etwaigen KI-Systemen erwartet wird. Dies sollten Plattformbetreiber und andere verantwortliche Institutionen bei der Entwicklung zukünftiger KI-Assistenzen beachten. Wie Nutzende auf diese reagieren und was sie erwarten, ist auch für die Politik interessant, die in Regulationen für den Einsatz von KI jeglicher Art schaffen muss und den Bedarf an Kennzeichnung von KI, Quellenoffenlegung und ethischen Risiken so besser feststellen kann.
+
+Fortführend können wir feststellen, dass unsere Arbeit auch eine Relevanz in der wissenschaftlichen Diskussion um Mensch-KI-Interaktion, Vertrauen und Medienkompetenz hat. Erkenntnisse aus einer anderen Studie (Jahanbaksh et al., 2023), die darauf hinweist, dass personalisierte KI-Systeme die Urteilsbildung beeinflussen, können wir bestätigen. Auch hier war die Transparenz und Nachvollziehbarkeit der KI stark gewichtet.
+Was uns zudem auffällt, ist, dass nach unserem Korrelationstest kein weiterer Zusammenhang zwischen technikbezogener Vorerfahrung (ATI) und der Wirkung der KI-Empfehlung gefunden wurde. Dies ist ein Widerspruch zu bisherigen Annahmen, die technikaffinen Menschen eine hohe Akzeptanz und einen hohen Nutzungsgrad von KI-Systemen nahelegt (Frane, T., Attig, C. & Wessel, D., 2019). https://doi.org/10.1080/10447318.2018.1456150 
 
 ### Limitationen
 
