@@ -61,12 +61,11 @@ Die Anzahl an Misinformationen auf Social Media nimmt stetig zu, das zeigt unter
 
 Ein möglicher Lösungsansatz könnte die Zuhilfenahme von Künstlicher Intelligenz sein. Schon jetzt finden KI-Systeme in Form von LLMs (Large Language Models) im Alltag vieler Menschen immer häufiger Verwendung. In unserem Fall soll es um KI-Systeme gehen, die den Menschen bei der Erkennung von Misinformationen unterstützen. Da die alltägliche Verwendung von KI in der Gesellschaft jedoch erst seit wenigen Jahren Bestand hat, wurden viele Aspekte der Schnittstelle zwischen Nutzenden und KI noch nicht ausreichend erforscht. Insbesondere Fragen zur Vertrauenswürdigkeit, Nachvollziehbarkeit und Akzeptanz sind beispielsweise noch weitgehend unbeantwortet. Im Idealfall könnten die Ergebnisse unserer Untersuchung daher zukünftig auch der allgemeinen Nutzendenforschung zu Künstlicher Intelligenz dienen.
 
-Im Rahmen dieses Papers wurden deshalb folgende Forschungsfragen untersucht: 1. Was sind Nutzendenanforderungen an KI als Werkzeug zur Unterstützung bei der Detektion von Misinformation auf Social Media? 2. Wie gehen Personen in diesem Kontext mit unterschiedlichen Feedback-Arten um? 
+Im Rahmen dieses Papers wurden deshalb folgende Forschungsfragen untersucht: 1. Was sind Nutzendenanforderungen an KI als Werkzeug zur Unterstützung bei der Detektion von Misinformation auf Social Media? 2. Wie gehen Personen in diesem Kontext mit unterschiedlichen Feedback-Arten um?
 
 Hierzu wurde mittels Interviewen der Probanden zunächst auf eine qualitative Datenerhebung gesetzt, um ein erstes Stimmungsbild einholen zu können und Hinweise darüber zu erhalten, welche Aspekte entscheidend zu untersuchen sind. Anschließend erfolgte eine quantitative Datenerhebung in Form einer Online-Umfrage. Dabei wurden personenbezogene Daten in einem Fragebogen erhoben, bevor die Probanden zwei mal jeweils zehn Posts richtig nach ihrem Wahrheitsgehalt einordnen sollten, zunächst ohne weitere Hilfe, anschließend mithilfe einer KI.
 
-Ziel dieser Untersuchung war es, Informationen darüber zu erhalten, welche Voraussetzungen eine KI erfüllen muss, um von Nutzenden als Hilfsmittel bei der Erkennung von Misinformationen zum Einsatz kommen zu können. Weiterführend sollten uns diese Untersuchungen helfen, besser zu verstehen, ob und inwiefern KI-Systeme überhaupt dazu geeignet sind, und wie die Umsetzung jener Systeme konkret aussehen müsste. 
-
+Ziel dieser Untersuchung war es, Informationen darüber zu erhalten, welche Voraussetzungen eine KI erfüllen muss, um von Nutzenden als Hilfsmittel bei der Erkennung von Misinformationen zum Einsatz kommen zu können. Weiterführend sollten uns diese Untersuchungen helfen, besser zu verstehen, ob und inwiefern KI-Systeme überhaupt dazu geeignet sind, und wie die Umsetzung jener Systeme konkret aussehen müsste.
 
 ## 2. Literaturübersicht
 
@@ -332,6 +331,32 @@ ggplot(time_on_task_means, aes(x = time_on_task_mean, y = aiknowledge)) +
 
 ## 5. Diskussion
 
+### Bedeutung der Arbeit für die Forschungsfrage
+
+#### Ziel
+
+Die vorliegende Arbeit widmet sich der zentralen Fragestellung, inwiefern Künstliche Intelligenz zur Unterstützung beim Filtern von Misinformationen in sozialen Medien beitragen kann. Diese Frage gewinnt angesichts der wachsenden Bedeutung von Social Media als primäre Informationsquelle für viele Menschen zunehmend an Relevanz. Durch verschiedene Methoden haben wir versucht uns der Frage zu stellen.
+
+#### Methoden
+
+Zur Beantwortung der Forschungsfrage wurde eine qualitative Analyse ausgeführt welche wir mit quantitativen Ansätzen weiter angeführt haben.
+
+In der qualitativen Analyse haben wir uns für ein Interview entschieden mit 2 Teilnehmenden, die in unserem Studiengang sind und somit möglicherweise entsprechende Erfahrungen zu KI haben.
+
+Innerhalb der quantitativen Datenerhebung wurden zur Teilnahme an der Erhebung den Probanden ein Link zur Verfügung gestellt, über den sie eigenständig teilnehmen konnten.
+
+Dabei handelte es sich bei der Erhebung um die Untersuchung des Effekts von KI als Unterstützung bei der Detektion von Misinformationen wobei die Teilnehmenden zunächst Beiträge ohne KI bewerten sollten und anschließend mit KI (Within-Subjects-Design).
+
+#### Ergebnis
+
+Aus der quantitativen Methode stellte sich unter anderen heraus dass, durch Einsatz der KI die Teilnehmenden eine höhere Entscheidungssicherheit als ohne KI erzielten. Dieser Unterschied ist signifikant. Dies deutet darauf hin, dass KI-Empfehlungen dazu beitragen können, das Vertrauen in die eigene Urteilsfähigkeit zu erhöhen.
+
+Aus der qualitativen Methode ergab sich, dass Betreiber der verschiedenen Webseiten  selbstverantwortlich sein sollten, es faktisch nachprüfbare Anteile haben muss und, dass es auch dementsprechend Quellenangaben geben soll.
+
+#### Explizite Beantwortung der Forschungsfrage
+
+Die Arbeit kommt zu dem Ergebnis, dass KI ein wirksames Werkzeug zur Unterstützung beim Filtern von Misinformationen in sozialen Medien darstellen kann, sofern sie gezielt eingesetzt und mit menschlicher Aufsicht kombiniert wird.
+
 ### Implikationen für die Gesellschaft
 
 In den Ergebnissen unserer Studie können wir Rückschlüsse auf gesellschaftliche Phänomene im Zusammenhang mit der Handhabung von digitalen Informationen ziehen. Konkret heißt das, dass KI-Empfehlungen die Entscheidungssicherheit von Nutzenden in sozialen Netzwerken signifikant erhöhen. Diese Information ist wertvoll, um in der zunehmend komplexen Informationslandschaft, die ein hohes Risiko für Misinformation birgt, immer bessere und sinnvollere Systeme zu entwickeln, die den Menschen bei der Orientierung auf digitalen Medien, insbesondere sozialen Medien, unterstützt. Wichtig ist zudem die Erkenntnis, dass die KI-Unterstützung vor allem dann angenommen wird, wenn diese verständlich und glaubwürdig präsentiert wird. Ebenfalls lässt sich aus den Interviews schließen, dass eine hohe Sorgfalt bei der Transparenz und Quellenangabe bei etwaigen KI-Systemen erwartet wird. Dies sollten Plattformbetreiber und andere verantwortliche Institutionen bei der Entwicklung zukünftiger KI-Assistenzen beachten. Wie Nutzende auf diese reagieren und was sie erwarten, ist auch für die Politik interessant, die in Regulationen für den Einsatz von KI jeglicher Art schaffen muss und den Bedarf an Kennzeichnung von KI, Quellenoffenlegung und ethischen Risiken so besser feststellen kann.
@@ -353,6 +378,8 @@ Bei der Frage zur Vorerfahrung mit KI könnten Teilnehmende aufgrund des aktuell
 Bei der qualitativen Erhebung wurden nur zwei Teilnehmende interviewt. Dies ist eine kleine Stichprobengröße für die gewählte Analysemethode. Außerdem wurde ein Interview online und ein Interview in Person durchgeführt. Hierbei wurden unterschiedliche Aufnahmemethoden (Smartphone-Mikrofon vs. OBS) verwendet. Somit könnten mögliche Unterschiede in der Aufnahmequalität und Gesprächsdynamik zu unterschiedlichen Analyseergebnissen geführt haben. Insgesamt sollten unsere Ergebnisse daher mehr als Trend, als eine repräsentative Meinungsabbildung angesehen werden.
 
 ### Möglichkeiten für zukünftige Arbeiten
+
+Künftige Studien könnten verschiedene Nutzergruppen (z. B. Laien vs. Expert\*innen, verschiedene Altersgruppen oder politische Einstellungen) gezielt vergleichen, um zu analysieren, unter welchen Bedingungen KI-Empfehlungen tatsächlich als hilfreich, vertrauenswürdig oder vielleicht auch als verzerrend wahrgenommen werden. Ein weiterer Ansatz ergibt sich aus einem Ergebnis der qualitativen Analyse: die Möglichkeit nach Nachprüfbarkeit und Quellenangaben. In zukünftigen Studien könnte gezielt untersucht werden, welchen Einfluss transparente Erklärungen der KI (z. B. Quellenangaben, Begründungen für eine Bewertung) auf das Vertrauen der Nutzenden haben. Für eine künftige Studie könnte ein Between-Subjects-Design gewählt werden. Dabei würden unterschiedliche Gruppen jeweils nur mit oder nur ohne KI arbeiten, um so mögliche Unterschiede im Vergleich besser sichtbar zu machen. Dadurch ließen sich Interpretationen und ob die KI wirklich unterstützt, weiter aufklären. Der Einsatz von KI zur Unterstützung bei der Erkennung von Misinformationen in Social Media bleibt ein spannendes Forschungsgebiet und hat wichtige Erkenntnisse gebracht. Durch verschiedene Forschungsfragen und Methoden lässt das Thema auch noch viel Potential zur Erweiterung für neue Erkenntnisgewinnung offen.
 
 #### Zielgruppenerweiterung
 
