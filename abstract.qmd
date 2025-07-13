@@ -57,7 +57,16 @@ Künstliche Intelligenz darf zur Unterstützung bei Recherche, Analyse oder Text
 
 ## 1. Einleitung
 
-Hallo!
+Die Anzahl an Misinformationen auf Social Media nimmt stetig zu, das zeigt unter anderem auch eine Studie der Vodafone-Stiftung aus dem Jahr 2020 (vgl. https://www.vodafone-stiftung.de/wp-content/uploads/2020/12/Studie-Vodafone-Stiftung-Umgang-mit-Falschnachrichten.pdf). Ein fehlendes Erkennen dieser Misinformationen birgt allerdings große gesellschaftliche Gefahren, besonders hinsichtlich der politischen Stabilität einer Demokratie. So kann sie unter anderem dazu beitragen, Wahlen gezielt zu manipulieren oder bewusst Unmut in der Bevölkerung auszulösen. Beispiele, wie das der vergangenen Bundestagswahl im Frühjahr 2025, als seitens einer pro-russischen Kampagne gezielt gefälschte Videos in den sozialen Medien verbreitet wurden, sind längst kein Einzelfall mehr (vgl. https://www.tagesschau.de/inland/bundestagswahl/desinformation-russland-briefwahl-100.html). In Anbetracht dessen sehen wir in der Tatsache, dass sich laut einer PISA-Studie aus dem Jahr 2022 nur etwa 47 Prozent der Befragten sicher waren, die Qualität von Informationen im Internet problemlos beurteilen zu können, großen Handlungsbedarf.
+
+Ein möglicher Lösungsansatz könnte die Zuhilfenahme von Künstlicher Intelligenz sein. Schon jetzt finden KI-Systeme in Form von LLMs (Large Language Models) im Alltag vieler Menschen immer häufiger Verwendung. In unserem Fall soll es um KI-Systeme gehen, die den Menschen bei der Erkennung von Misinformationen unterstützen. Da die alltägliche Verwendung von KI in der Gesellschaft jedoch erst seit wenigen Jahren Bestand hat, wurden viele Aspekte der Schnittstelle zwischen Nutzenden und KI noch nicht ausreichend erforscht. Insbesondere Fragen zur Vertrauenswürdigkeit, Nachvollziehbarkeit und Akzeptanz sind beispielsweise noch weitgehend unbeantwortet. Im Idealfall könnten die Ergebnisse unserer Untersuchung daher zukünftig auch der allgemeinen Nutzendenforschung zu Künstlicher Intelligenz dienen.
+
+Im Rahmen dieses Papers wurden deshalb folgende Forschungsfragen untersucht: 1. Was sind Nutzendenanforderungen an KI als Werkzeug zur Unterstützung bei der Detektion von Misinformation auf Social Media? 2. Wie gehen Personen in diesem Kontext mit unterschiedlichen Feedback-Arten um? 
+
+Hierzu wurde mittels Interviewen der Probanden zunächst auf eine qualitative Datenerhebung gesetzt, um ein erstes Stimmungsbild einholen zu können und Hinweise darüber zu erhalten, welche Aspekte entscheidend zu untersuchen sind. Anschließend erfolgte eine quantitative Datenerhebung in Form einer Online-Umfrage. Dabei wurden personenbezogene Daten in einem Fragebogen erhoben, bevor die Probanden zwei mal jeweils zehn Posts richtig nach ihrem Wahrheitsgehalt einordnen sollten, zunächst ohne weitere Hilfe, anschließend mithilfe einer KI.
+
+Ziel dieser Untersuchung war es, Informationen darüber zu erhalten, welche Voraussetzungen eine KI erfüllen muss, um von Nutzenden als Hilfsmittel bei der Erkennung von Misinformationen zum Einsatz kommen zu können. Weiterführend sollten uns diese Untersuchungen helfen, besser zu verstehen, ob und inwiefern KI-Systeme überhaupt dazu geeignet sind, und wie die Umsetzung jener Systeme konkret aussehen müsste. 
+
 
 ## 2. Literaturübersicht
 
