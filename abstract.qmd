@@ -369,7 +369,7 @@ Fortführend können wir feststellen, dass unsere Arbeit auch eine Relevanz in d
 
 #### Quantitative Methode
 
-Die Teilnehmenden unserer Studie wurden überwiegend über eine Online-Verbreitung in einem universitären Umfeld rekrutiert. Diese Art der Rekrutierung kann zu einer Selbstselektion der Teilnehmenden geführt haben, welche eventuell ein besonderes Interesse an KI oder digitaler Mediennutzung haben. Hinzukommt, dass der größte Teil unserer Teilnehmenden angab, einen höheren Bildungsabschluss zu besitzen, wobei der Altersdurchschnitt bei 26 Jahren lag. Diese vorangehenden Punkte zeigen, dass unsere Stichprobe deshalb nicht als repräsentativ für die Gesamtbevölkerung angesehen werden kann.
+Die Teilnehmenden unserer Studie wurden überwiegend über eine Online-Verbreitung in einem universitären Umfeld rekrutiert. Diese Art der Rekrutierung kann zu einer Selbstselektion der Teilnehmenden geführt haben, welche eventuell ein besonderes Interesse an KI oder digitaler Mediennutzung haben. Hinzukommt, dass der größte Teil unserer Teilnehmenden angab, einen höheren Bildungsabschluss zu besitzen, wobei der Altersdurchschnitt bei 26 Jahren liegt. Diese vorangehenden Punkte zeigen, dass unsere Stichprobe deshalb nicht als repräsentativ für die Gesamtbevölkerung angesehen werden kann.
 
 Bei der Frage zur Vorerfahrung mit KI könnten Teilnehmende aufgrund des aktuell im Trend liegenden KI-Themas zu sozial erwünschten Antworten tendiert haben und somit ihre eigenen Fähigkeiten überschätzt haben.
 
@@ -378,20 +378,20 @@ Bei der Frage zur Vorerfahrung mit KI könnten Teilnehmende aufgrund des aktuell
 Bei der qualitativen Erhebung wurden nur zwei Teilnehmende interviewt. Dies ist eine kleine Stichprobengröße für die gewählte Analysemethode. Außerdem wurde ein Interview online und ein Interview in Person durchgeführt. Hierbei wurden unterschiedliche Aufnahmemethoden (Smartphone-Mikrofon vs. OBS) verwendet. Somit könnten mögliche Unterschiede in der Aufnahmequalität und Gesprächsdynamik zu unterschiedlichen Analyseergebnissen geführt haben. Insgesamt sollten unsere Ergebnisse daher mehr als Trend, als eine repräsentative Meinungsabbildung angesehen werden.
 
 ### Möglichkeiten für zukünftige Arbeiten
-
-Künftige Studien könnten verschiedene Nutzergruppen (z. B. Laien vs. Expert\*innen, verschiedene Altersgruppen oder politische Einstellungen) gezielt vergleichen, um zu analysieren, unter welchen Bedingungen KI-Empfehlungen tatsächlich als hilfreich, vertrauenswürdig oder vielleicht auch als verzerrend wahrgenommen werden. Ein weiterer Ansatz ergibt sich aus einem Ergebnis der qualitativen Analyse: die Möglichkeit nach Nachprüfbarkeit und Quellenangaben. In zukünftigen Studien könnte gezielt untersucht werden, welchen Einfluss transparente Erklärungen der KI (z. B. Quellenangaben, Begründungen für eine Bewertung) auf das Vertrauen der Nutzenden haben. Für eine künftige Studie könnte ein Between-Subjects-Design gewählt werden. Dabei würden unterschiedliche Gruppen jeweils nur mit oder nur ohne KI arbeiten, um so mögliche Unterschiede im Vergleich besser sichtbar zu machen. Dadurch ließen sich Interpretationen und ob die KI wirklich unterstützt, weiter aufklären. Der Einsatz von KI zur Unterstützung bei der Erkennung von Misinformationen in Social Media bleibt ein spannendes Forschungsgebiet und hat wichtige Erkenntnisse gebracht. Durch verschiedene Forschungsfragen und Methoden lässt das Thema auch noch viel Potential zur Erweiterung für neue Erkenntnisgewinnung offen.
-
 #### Zielgruppenerweiterung
 
-Zukünftige Arbeiten könnten gezielt ältere oder technikferne Zielgruppen einbeziehen, um Unterschiede in der Entscheidungssicherheit zwischen Altersgruppen zu analysieren. Außerdem würde eine Durchführung mit einer repräsentativen Zusammensetzung der Stichprobe hinsichtlich Alter, Beruf und Bildungssabschluss zu verallgemeinerbaren Aussagen führen.
+Zukünftige Arbeiten könnten gezielt ältere oder technikferne Zielgruppen einbeziehen, um Unterschiede in der Entscheidungssicherheit zwischen Altersgruppen zu analysieren. Somit könnte, abhängig von der Stichprobe, analysiert werden unter welchen Bedingungen KI-Empfehlungen tatsächlich als hilfreich, vertrauenswürdig oder vielleicht auch als verzerrend wahrgenommen werden. Außerdem würde eine Durchführung mit einer repräsentativen Zusammensetzung der Stichprobe hinsichtlich Alter, Beruf und Bildungssabschluss zu verallgemeinerbaren Aussagen führen. 
 
 #### Experimentielle Variationen des KI-Systems
 
-Die aus unserer qualitativen Erhebung gewonnenen Anforderungen an ein KI-System hinsichtlich Darstellung und Transparenz könnten in folgenden Arbeiten variiert werden. Hierbei wären Unterschiede in der Art der Darstellung der Quellen (bzw. keine Angabe von Quellen) sowie der Art der Interaktion (dialogbasiert vs. rein informierend über visuelle Marker) von Interesse, um den Einfluss auf Vertrauen und Akzeptanz zu untersuchen.
+Ein weiterer Ansatz ergibt sich aus den Ergebnissen der qualitativen Analyse: Die aus unserer qualitativen Erhebung gewonnenen Anforderungen an ein KI-System hinsichtlich Darstellung und Transparenz könnten in folgenden Arbeiten variiert werden. Hierbei wären Unterschiede in der Art der Darstellung der Quellen (bzw. keine Angabe von Quellen) sowie der Art der Interaktion (dialogbasiert vs. rein informierend über visuelle Marker) von Interesse, um den Einfluss auf Vertrauen und Akzeptanz zu untersuchen.
 
 #### Zeitraumerweiterung
 
 Unsere Erhebung fand über zehn Tage statt. Eine mehrfache Erhebung über einen längeren Zeitraum hinweg kann aufgrund der aktuellen sehr schnellen Entwicklungen im Bereich KI in Betracht gezogen werden. Somit wäre es möglich, Lerneffekte oder Veränderungen im Vertrauen in KI-Systeme zu untersuchen.
+
+#### Ausblick
+Der Einsatz von KI zur Unterstützung bei der Erkennung von Misinformationen in Social Media bleibt ein spannendes Forschungsgebiet und hat bereits viele Erkenntnisse gebracht. Durch verschiedene Forschungsfragen und Methoden lässt das Thema auch noch viel Potential zur Erweiterung für neue Erkenntnisgewinnung offen.
 
 ## Literaturverzeichnis
 
