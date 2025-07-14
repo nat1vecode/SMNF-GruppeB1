@@ -107,7 +107,7 @@ Ausschlusskriterien für Teilnehmer unserer Erhebung waren, dass sie minderjähr
 
 #### Beschreibung der gewählten Erhebungsmethode
 
-Wir haben wir uns bei der Erhebungsmethode für eine quantitative Methode entschieden. Hierzu wurden im Pre-Test-, Post-Baseline- und Post-Test-Fragebogen Skalen verwendet. Bei der Klassifizierung der Posts wurden je Post messbare Variablen sowie die Entscheidungssicherheit des Nutzers über eine Skala aufgenommen. Unter anderem wird die Technik-Affinität mittels einer ATI-Skala gemessen, das Informationsbewusstsein mithilfe einer SIPA-Skala und die Usability durch eine System Usability Scale.
+Wir haben wir uns bei der Erhebungsmethode für eine quantitative Methode entschieden. Hierzu wurden im Pre-Test-, Post-Baseline- und Post-Test-Fragebogen Skalen verwendet. Bei der Klassifizierung der Posts wurden je Post messbare Variablen sowie die Entscheidungssicherheit des Nutzers über eine Skala aufgenommen. Unter anderem wird die Technik-Affinität mittels der ATI-Skala gemessen, das Informationsbewusstsein mithilfe der SIPA-Skala und die Usability durch die System Usability Scale.
 
 #### Geplante Analysen
 
@@ -378,9 +378,10 @@ Bei der Frage zur Vorerfahrung mit KI könnten Teilnehmende aufgrund des aktuell
 Bei der qualitativen Erhebung wurden nur zwei Teilnehmende interviewt. Dies ist eine kleine Stichprobengröße für die gewählte Analysemethode. Außerdem wurde ein Interview online und ein Interview in Person durchgeführt. Hierbei wurden unterschiedliche Aufnahmemethoden (Smartphone-Mikrofon vs. OBS) verwendet. Somit könnten mögliche Unterschiede in der Aufnahmequalität und Gesprächsdynamik zu unterschiedlichen Analyseergebnissen geführt haben. Insgesamt sollten unsere Ergebnisse daher mehr als Trend, als eine repräsentative Meinungsabbildung angesehen werden.
 
 ### Möglichkeiten für zukünftige Arbeiten
+
 #### Zielgruppenerweiterung
 
-Zukünftige Arbeiten könnten gezielt ältere oder technikferne Zielgruppen einbeziehen, um Unterschiede in der Entscheidungssicherheit zwischen Altersgruppen zu analysieren. Somit könnte, abhängig von der Stichprobe, analysiert werden unter welchen Bedingungen KI-Empfehlungen tatsächlich als hilfreich, vertrauenswürdig oder vielleicht auch als verzerrend wahrgenommen werden. Außerdem würde eine Durchführung mit einer repräsentativen Zusammensetzung der Stichprobe hinsichtlich Alter, Beruf und Bildungssabschluss zu verallgemeinerbaren Aussagen führen. 
+Zukünftige Arbeiten könnten gezielt ältere oder technikferne Zielgruppen einbeziehen, um Unterschiede in der Entscheidungssicherheit zwischen Altersgruppen zu analysieren. Somit könnte, abhängig von der Stichprobe, analysiert werden unter welchen Bedingungen KI-Empfehlungen tatsächlich als hilfreich, vertrauenswürdig oder vielleicht auch als verzerrend wahrgenommen werden. Außerdem würde eine Durchführung mit einer repräsentativen Zusammensetzung der Stichprobe hinsichtlich Alter, Beruf und Bildungssabschluss zu verallgemeinerbaren Aussagen führen.
 
 #### Experimentielle Variationen des KI-Systems
 
@@ -391,6 +392,7 @@ Ein weiterer Ansatz ergibt sich aus den Ergebnissen der qualitativen Analyse: Di
 Unsere Erhebung fand über zehn Tage statt. Eine mehrfache Erhebung über einen längeren Zeitraum hinweg kann aufgrund der aktuellen sehr schnellen Entwicklungen im Bereich KI in Betracht gezogen werden. Somit wäre es möglich, Lerneffekte oder Veränderungen im Vertrauen in KI-Systeme zu untersuchen.
 
 #### Ausblick
+
 Der Einsatz von KI zur Unterstützung bei der Erkennung von Misinformationen in Social Media bleibt ein spannendes Forschungsgebiet und hat bereits viele Erkenntnisse gebracht. Durch verschiedene Forschungsfragen und Methoden lässt das Thema auch noch viel Potential zur Erweiterung für neue Erkenntnisgewinnung offen.
 
 ## Literaturverzeichnis
