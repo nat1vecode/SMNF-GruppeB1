@@ -205,13 +205,17 @@ Die Datenerhebung erfolgte anonym und freiwillig. Zudem wurden keine personenbez
 
 Untersucht wird zunächst, inwiefern die Entscheidungssicherheit der Probanden bei der Beurteilung diverser Posts von der Verwendung einer KI beeinflusst wird. Zugrunde liegt die Hypothese, die Zuhilfenahme von KI-Systemen könnte das Vertrauen der Probanden in die eigene Beurteilung von (Mis-)Informationen erhöhen.
 
-Die Durchführung dieser Untersuchung erfolgt in Form eines gepaarten t-Tests, der die Mittelwerte der Variable zur Beschreibung der Entscheidungssicherheit, confidence (*N* = 3376, *M* = 4.34, *SD* = 1.25), aus den entsprechenden Systemtypen vergleicht (@fig-mstbl). Der Systemtyp wird hierbei in der unabhängigen Variable system abgebildet, wobei im Rahmen dieser Untersuchung\* nur zwischen den Systemtypen Baseline (ohne KI) und Evaluative/Recommendative (mit KI) differenziert wird (@fig-cstbl). Gewählt wird ein Signifikanzniveau von 0.05. Das Ergebnis entspricht einem p-Wert von .05. Somit wird das Ergebnis als statistisch signifikant interpretiert, wodurch unsere Hypothese bestätigt wird.
+Die Durchführung dieser Untersuchung erfolgt in Form eines gepaarten t-Tests, der die Mittelwerte der Variable zur Beschreibung der Entscheidungssicherheit, confidence (*N* = 3376, *M* = 4.34, *SD* = 1.25), aus den entsprechenden Systemtypen vergleicht (@fig-mstbl). Der Systemtyp wird hierbei in der unabhängigen Variable system abgebildet, wobei im Rahmen dieser Untersuchung\* nur zwischen den Systemtypen Baseline (ohne KI) und Evaluative/Recommendative (mit KI) differenziert wird. Gewählt wird ein Signifikanzniveau von 0.05. Das Ergebnis entspricht einem p-Wert von .05. Somit wird das Ergebnis als statistisch signifikant interpretiert, wodurch unsere Hypothese bestätigt wird.
 
-Des Weiteren wird mittels einer Korrelationsanalyse ein möglicher Zusammenhang der Vorerfahrung mit KI seitens der Probanden mit der benötigten Bearbeitungszeit bei der Verwendung der KI geprüft. Die Variable aiknowledge (*N* = 3376, *M* = 3.09, *SD* = 0.91) aus dem Pre-Test-Fragebogen bildet hierbei metrisch auf einer self-designed Skala von 1-5 das angegebene KI-Vorwissen der Probanden ab (@fig-mstbl). Die Bearbeitungszeit im Rahmen der Performanzdatenerhebung wird in der Variable time_on_task gespeichert (@fig-mstbl), wobei für diese Analyse nur die Bearbeitungszeit bei Verwendung einer der beiden KI-Systemtypen berücksichtigt wird.
+Des Weiteren wird mittels einer Korrelationsanalyse ein möglicher Zusammenhang der Vorerfahrung mit KI seitens der Probanden mit der benötigten Bearbeitungszeit bei der Verwendung der KI geprüft. Die Variable aiknowledge (*N* = 3376, *M* = 3.09, *SD* = 0.91) aus dem Pre-Test-Fragebogen bildet hierbei metrisch auf einer self-designed Skala von 1-5 das angegebene KI-Vorwissen der Probanden ab (@tbl-metric). Die Bearbeitungszeit im Rahmen der Performanzdatenerhebung wird in der Variable time_on_task gespeichert (@tbl-metric), wobei für diese Analyse nur die Bearbeitungszeit bei Verwendung einer der beiden KI-Systemtypen berücksichtigt wird.
 
-![](categorial_table.png){#fig-cstbl .figure .quarto-figure fig-cap=""}
+| Variable     | n   | mean          | sd            | median    | min | max        |
+|--------------|-----|---------------|---------------|-----------|-----|------------|
+| confidence   | 176 | 4,34          | 1.25          | 4         | 1   | 6          |
+| time_on_task | 176 | 787246235\.31 | 395151394\.54 | 864144966 | 306 | 1467664441 |
+| aiknowledge  | 169 | 3.09          | 0.91          | 3         | 1   | 5          |
 
-![](metric_table.png){#fig-mstbl .figure .quarto-figure fig-cap=""}
+: Metrische Statistiken {#tbl-metric}
 
 ### Inferenzstatistik
 
@@ -424,12 +428,6 @@ Link öffnen (Bitte im Browser auf einem PC oder Tablet öffnen.)
 VP-Stunden:
 
 Studierende der Medieninformatik oder Psychologie an der Universität zu Lübeck können für die Teilnahme 1 VP-Stunde erhalten.
-
-### Stichprobe
-
-Die vorliegende Stichprobe wurde im Rahmen einer Online-Befragung erhoben, die über einen web Link verteilt wurde. Der Erhebungszeitraum erstreckte sich dabei vom 31.05.2025 bis zum 09.06.2025. Insgesamt nahmen 176 Personen an der Befragung teil. Die Zusammensetzung der Stichprobe weist einen Anteil von \[Prozentzahl\]% weiblichen und \[Prozentzahl\]% männlichen Teilnehmern auf. Der Altersdurchschnitt der Stichprobe betrögt dabei \[Alter\] Jahre mit einer Standardabweichung von \[SD\]. Bezüglich des Bildungsniveaus gaben \[Prozentzahl\]% der Teilnehmenden an, einen \[Art des Abschlusses\] zu besitzen, während \[Prozentzahl\]% einen \[anderer Abschluss\] vorweisen konnten. Die Selbsteinschätzung der Teilnehmenden hinsichtlich ihrer Kenntnisse über Künstliche Intelligenz variierte auf einer Skala von \[min. Wert\] bis \[max. Wert\]. Die durchschnittliche Bearbeitungszeit des Fragebogens lag bei \[Zeitangabe\] Minuten.
-
-Die Datenerhebung erfolgte anonym und freiwillig. Zudem wurden keine personenbezogenen Daten erhoben, die eine Identifizierung ermöglichen würden. Ziel der Befragung war es, ein breites Meinungsbild zu verschiedenen Aspekten rund um digitale Mediennutzung und technologische Kompetenzen im Bezug auf KI und Missinformationen im Internet zu erfassen. Die Ergebnisse der Studie sollen einen Beitrag zum besseren Verständnis digitaler Verhaltensweisen liefern.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
