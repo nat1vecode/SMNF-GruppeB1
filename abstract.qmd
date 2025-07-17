@@ -207,7 +207,7 @@ Für die vorliegende Untersuchung wurden insgesamt 3.376 Bewertungen durch Proba
 
 Die Entscheidungssicherheit *confidence* wurde auf einer Skala von 1 bis 6 erhoben und weist einen Mittelwert von *M* = 4.34 (*SD* = 1.25, *Median* = 4, *Min* = 1, *Max* = 6) auf (\@tbl-metric). Diese Variable dient in der späteren Inferenzanalyse als abhängige Variable im t-Test-Vergleich zwischen den Gruppen mit und ohne KI-Unterstützung.
 
-Die Bearbeitungszeit *time_on_task*, gemessen in Millisekunden, wird mit einem Mittelwert von *M* = 78.724.623 ms (*SD* = 39.515.139 ms, *Median* = 86.414.497 ms, *Min* = 306 ms, *Max* = 146.766.444 ms) beschrieben (\@tbl-metric). Um eine bessere Lesbarkeit zu gewährleisten, entspricht dies einer durchschnittlichen Bearbeitungszeit von etwa 78,7Sekunden (*SD* ≈ 39,5 Sekunden). Diese Variable wird später in der Korrelationsanalyse verwendet.
+Die Bearbeitungszeit *time_on_task*, gemessen in Millisekunden, wird mit einem Mittelwert von *M* = 787,246,235 ms (*SD* = 395,151,394 ms, *Median* = 864,144,966 ms, *Min* = 306 ms, *Max* = 146,766,441 ms) beschrieben (\@tbl-metric). Um eine bessere Lesbarkeit zu gewährleisten, entspricht dies einer durchschnittlichen Bearbeitungszeit von etwa 78,7 Sekunden (*SD* ≈ 39,5 Sekunden). Diese Variable wird später in der Korrelationsanalyse verwendet.
 
 Das selbst eingeschätzte Vorwissen über KI *aiknowledge* wurde auf einer Skala von 1 (sehr gering) bis 5 (sehr hoch) erhoben. Der Mittelwert beträgt *M* = 3.09 (*SD* = 0.91, *Median* = 3, *Min* = 1, *Max* = 5), was auf ein insgesamt mittleres Niveau an Vorerfahrung mit KI seitens der Probanden hindeutet (\@tbl-metric).
 
